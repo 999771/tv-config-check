@@ -4,7 +4,7 @@ name: 检查API可用性
 on:
   schedule:
     - cron: '0 0 * * *'
-  # 也可以手动触发工作流
+  # 允许手动触发工作流
   workflow_dispatch:
 
 jobs:
@@ -32,11 +32,13 @@ jobs:
       - name: 运行API检查
         run: python check_apis.py
       
-      # 步骤5：提交更改到仓库
+      # 步骤5：提交更改到仓库（已修复文件路径）
       - name: 提交更新后的配置文件
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add config.json config_base58.txt
+          # 明确指定output文件夹下的文件
+          git add output/config.json output/config_base58.txt
+          # 如果有更改则提交，否则不报错
           git commit -m "自动更新API配置文件 $(date +'%Y-%m-%d')" || echo "没有需要提交的更改"
           git push
