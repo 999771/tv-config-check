@@ -1,0 +1,42 @@
+name: 检查API可用性
+
+# 定时运行：每天UTC时间0点运行（北京时间8点）
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  # 也可以手动触发工作流
+  workflow_dispatch:
+
+jobs:
+  check-apis:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 步骤1：检出仓库代码
+      - name: 检出代码
+        uses: actions/checkout@v3
+      
+      # 步骤2：设置Python环境
+      - name: 设置Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      # 步骤3：安装依赖
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests base58
+      
+      # 步骤4：运行检查脚本
+      - name: 运行API检查
+        run: python check_apis.py
+      
+      # 步骤5：提交更改到仓库
+      - name: 提交更新后的配置文件
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add config.json config_base58.txt
+          git commit -m "自动更新API配置文件 $(date +'%Y-%m-%d')" || echo "没有需要提交的更改"
+          git push
