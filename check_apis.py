@@ -5,41 +5,67 @@ import time
 import os
 from glob import glob  # 用于查找多个JSON文件
 
-def is_api_working(url, timeout=15, max_retries=3):
+def is_api_working(url, timeout=20, max_retries=3):
     """
-    检查API是否可用，增加超时时间和重试机制
+    检查API是否可用，增强版检测逻辑
     :param url: 要检查的API地址
     :param timeout: 每次请求超时时间（秒）
     :param max_retries: 最大重试次数
     :return: 布尔值，API是否可用
     """
+    # 增强请求头，模拟真实浏览器行为
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0"
+    }
+
     for attempt in range(max_retries):
         try:
-            # 先尝试HEAD请求（轻量）
+            # 第一次尝试：HEAD请求（轻量检测）
             response = requests.head(
                 url, 
                 timeout=timeout, 
                 allow_redirects=True,
-                headers={"User-Agent": "Mozilla/5.0"}  # 模拟浏览器请求
+                headers=headers,
+                verify=False  # 跳过SSL证书验证（解决部分证书问题）
             )
             if 200 <= response.status_code < 400:
                 return True
-        except:
-            try:
-                # HEAD失败尝试GET请求
-                response = requests.get(
-                    url, 
-                    timeout=timeout, 
-                    allow_redirects=True,
-                    headers={"User-Agent": "Mozilla/5.0"},
-                    stream=True  # 不下载完整内容，只获取响应头
-                )
-                if 200 <= response.status_code < 400:
-                    return True
-            except Exception as e:
-                print(f"第{attempt+1}次尝试失败: {str(e)}")
-                if attempt < max_retries - 1:
-                    time.sleep(2)  # 重试间隔
+
+        except requests.exceptions.SSLError:
+            print(f"⚠️ SSL证书验证失败，尝试跳过验证...")
+        except Exception as e:
+            print(f"⚠️ 第{attempt+1}次HEAD请求失败: {str(e)}")
+
+        # HEAD失败后尝试GET请求（获取头部信息，不下载内容）
+        try:
+            response = requests.get(
+                url, 
+                timeout=timeout, 
+                allow_redirects=True,
+                headers=headers,
+                stream=True,  # 不下载完整内容
+                verify=False  # 跳过SSL证书验证
+            )
+            # 只需要确认响应状态码有效，不需要读取内容
+            if 200 <= response.status_code < 400:
+                return True
+            else:
+                print(f"⚠️ GET请求返回状态码: {response.status_code}")
+
+        except Exception as e:
+            print(f"⚠️ 第{attempt+1}次GET请求失败: {str(e)}")
+
+        # 重试间隔递增（避免频繁请求被屏蔽）
+        if attempt < max_retries - 1:
+            sleep_time = 2 **attempt  # 1s, 2s, 4s...
+            print(f"⏳ 等待{sleep_time}秒后重试...")
+            time.sleep(sleep_time)
+
     return False
 
 def process_json_file(input_path, output_dir):
@@ -60,21 +86,20 @@ def process_json_file(input_path, output_dir):
     for site_key, site_info in api_sites.items():
         api_url = site_info.get('api')
         site_name = site_info.get('name', site_key)
-        print(f"检查 {site_name} ({api_url})...")
+        print(f"\n检查 {site_name} ({api_url})...")
         
         if is_api_working(api_url):
             valid_sites[site_key] = site_info
             print(f"✅ {site_name} 可用")
         else:
             print(f"❌ {site_name} 多次尝试失败，将被移除")
-        
-        time.sleep(1)  # 避免请求过于频繁
     
-    # 创建新配置
-    new_config = {
-        "cache_time": config.get('cache_time', 7200),
-        "api_site": valid_sites
-    }
+    # 创建新配置（保留原始配置中的其他字段）
+    new_config = config.copy()  # 复制原始配置
+    new_config['api_site'] = valid_sites  # 只替换api_site部分
+    
+    # 确保输出目录存在
+    os.makedirs(output_dir, exist_ok=True)
     
     # 保存处理后的JSON
     output_path = os.path.join(output_dir, filename)
