@@ -74,18 +74,45 @@ def process_json_file(input_path, output_dir):
     with open(input_path, 'r', encoding='utf-8') as f:
         config = json.load(f)
     
+    # 修复1：处理JSON结构可能是列表的问题
+    if isinstance(config, list):
+        print(f"⚠️ 注意：{input_path} 是列表结构，将尝试转换为字典处理")
+        # 如果是列表且第一个元素是字典，就用第一个元素
+        if len(config) > 0 and isinstance(config[0], dict):
+            config = config[0]
+        else:
+            print(f"❌ {input_path} 格式不符合要求，跳过处理")
+            return
+    
     # 提取文件名（用于输出）
     filename = os.path.basename(input_path)
     print(f"\n开始处理文件: {filename}")
     
     # 检查API站点
     valid_sites = {}
+    # 修复2：确保api_site是字典
     api_sites = config.get('api_site', {})
+    if not isinstance(api_sites, dict):
+        print(f"⚠️ {filename} 中的api_site不是字典类型，已重置为空")
+        api_sites = {}
+    
     print(f"发现 {len(api_sites)} 个API站点，开始检查...")
     
     for site_key, site_info in api_sites.items():
-        api_url = site_info.get('api')
+        # 确保site_info是字典
+        if not isinstance(site_info, dict):
+            print(f"⚠️ {site_key} 格式不正确，跳过")
+            continue
+            
+        api_url = site_info.get('api', '')
         site_name = site_info.get('name', site_key)
+        
+        # 新增：只检测包含"vod"或"json"的API地址
+        if "vod" not in api_url and "json" not in api_url:
+            print(f"ℹ️ {site_name} ({api_url}) 不包含vod/json，跳过检测")
+            valid_sites[site_key] = site_info  # 不检测直接保留
+            continue
+        
         print(f"\n检查 {site_name} ({api_url})...")
         
         if is_api_working(api_url):
