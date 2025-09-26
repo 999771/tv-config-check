@@ -31,11 +31,6 @@
             "name": "如意资源",
             "detail": "https://www.ryzyw.com"
         },
-        "xmao": {
-            "api": "http://zy.xmm.hk/api.php/provide/vod",
-            "name": "小猫咪资源",
-            "detail": "https://zy.xmm.hk"
-        },
         "plzy": {
             "api": "https://p2100.net/api.php/provide/vod",
             "name": "飘零资源",
