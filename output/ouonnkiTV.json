@@ -42,13 +42,6 @@
         "isEnabled": true
     },
     {
-        "id": "xmao",
-        "name": "小猫咪资源",
-        "url": "http://zy.xmm.hk/api.php/provide/vod",
-        "detailUrl": "https://zy.xmm.hk",
-        "isEnabled": true
-    },
-    {
         "id": "plzy",
         "name": "飘零资源",
         "url": "https://p2100.net/api.php/provide/vod",
