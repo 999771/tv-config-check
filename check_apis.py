@@ -3,6 +3,7 @@ import requests
 import base58
 import time
 import os
+import random  # 添加缺失的random模块导入
 from glob import glob
 
 def is_api_working(url, timeout=30, max_retries=5):
@@ -47,8 +48,7 @@ def is_api_working(url, timeout=30, max_retries=5):
                 timeout=timeout, 
                 allow_redirects=True,
                 headers=headers,
-                verify=False,  # 跳过SSL验证
-                stream=True
+                verify=False  # 跳过SSL验证
             )
             
             # 处理403状态码：尝试使用备用User-Agent
@@ -69,7 +69,7 @@ def is_api_working(url, timeout=30, max_retries=5):
 
         # 智能重试间隔（递增且随机化，避免被识别为机器人）
         if attempt < max_retries - 1:
-            sleep_time = 2 **attempt + random.uniform(0.5, 1.5)  # 1.5-2.5s, 2.5-3.5s...
+            sleep_time = 2 ** attempt + random.uniform(0.5, 1.5)  # 修复：使用2**attempt而不是2**attempt
             print(f"⏳ 等待{sleep_time:.1f}秒后重试...")
             time.sleep(sleep_time)
 
@@ -188,9 +188,13 @@ def process_json_file(input_path, output_dir):
     print(f"已更新base58编码: {base58_path}")
 
 def main():
-    import random  # 延迟导入，仅在主程序运行时使用
     input_dir = 'Initial'
     output_dir = 'output'
+    
+    # 检查输入目录是否存在
+    if not os.path.exists(input_dir):
+        print(f"错误: 输入目录 '{input_dir}' 不存在")
+        return
     
     # 获取所有JSON文件
     json_files = glob(os.path.join(input_dir, '*.json'))
@@ -200,7 +204,11 @@ def main():
     
     print(f"发现 {len(json_files)} 个JSON文件，开始处理...")
     for json_file in json_files:
-        process_json_file(json_file, output_dir)
+        try:
+            process_json_file(json_file, output_dir)
+        except Exception as e:
+            print(f"处理文件 {json_file} 时出错: {str(e)}")
+            continue
     
     print("\n所有文件处理完成，已自动更新同名文件!")
 
