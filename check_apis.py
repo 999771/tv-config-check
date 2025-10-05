@@ -5,52 +5,74 @@ import time
 import os
 import random
 from glob import glob
+from urllib.parse import urlparse
 
 def is_api_working(url, timeout=30, max_retries=5):
     """
-    检测API是否可用，使用更简单的请求头避免403错误
+    检测API是否可用，使用更真实的请求头避免403错误
     """
-    # 简化请求头，避免过于复杂的浏览器模拟导致403
+    # 解析URL获取域名用于Referer
+    parsed_url = urlparse(url)
+    domain = f"{parsed_url.scheme}://{parsed_url.netloc}"
+    
+    # 更真实的浏览器请求头
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
         "Accept-Encoding": "gzip, deflate, br",
         "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1"
+        "Upgrade-Insecure-Requests": "1",
+        "Referer": domain,
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
     }
 
     # 备用User-Agent列表
     backup_user_agents = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0"
     ]
 
     for attempt in range(max_retries):
         try:
-            # 发送GET请求，不跳过SSL验证
+            # 随机选择User-Agent
+            headers["User-Agent"] = random.choice(backup_user_agents)
+            
+            # 发送GET请求
             response = requests.get(
                 url, 
                 timeout=timeout, 
                 allow_redirects=True,
                 headers=headers,
-                verify=True  # 重新启用SSL验证
+                verify=True
             )
             
             # 检查响应状态码
             if response.status_code == 200:
-                # 尝试解析JSON响应，确保是有效的API
+                # 尝试解析JSON响应
                 try:
-                    response.json()
-                    return True
+                    data = response.json()
+                    # 检查返回的数据结构是否合理
+                    if isinstance(data, dict) and 'list' in data or 'data' in data or 'vod' in str(data).lower():
+                        return True
+                    elif isinstance(data, list):
+                        return True
+                    else:
+                        print(f"⚠️ API返回数据结构异常")
+                        continue
                 except:
+                    # 检查是否为HTML页面（可能是错误的API）
+                    if '<html' in response.text[:100].lower() or '<!doctype' in response.text[:100].lower():
+                        print(f"⚠️ 返回的是HTML页面，可能不是有效的API")
+                        continue
                     # 即使不是JSON，200状态码也表示服务器响应正常
                     return True
             elif response.status_code == 403:
                 print(f"⚠️ 第{attempt+1}次尝试返回403，更换User-Agent重试...")
-                if attempt < len(backup_user_agents):
-                    headers["User-Agent"] = backup_user_agents[attempt]
                 continue
             elif response.status_code == 404:
                 print(f"⚠️ API不存在 (404): {url}")
@@ -76,24 +98,44 @@ def is_api_working(url, timeout=30, max_retries=5):
 
     return False
 
-def extract_apis_from_config(config):
-    """从配置文件中提取所有API地址"""
-    apis = []
+def extract_api_sites_from_config(config):
+    """从配置文件中提取所有API站点信息"""
+    api_sites = []
     
-    def find_apis(obj):
+    def find_api_sites(obj, path=""):
         if isinstance(obj, dict):
-            for key, value in obj.items():
-                if isinstance(value, str) and (value.startswith('http') and ('api' in value.lower() or 'vod' in value.lower())):
-                    apis.append(value)
-                else:
-                    find_apis(value)
+            # 检查是否是api_site结构
+            if 'api' in obj and 'name' in obj:
+                site_id = path.split('.')[-1] if path else "unknown"
+                api_sites.append({
+                    'id': site_id,
+                    'name': obj.get('name', ''),
+                    'api': obj.get('api', ''),
+                    'detail': obj.get('detail', '') or obj.get('detailUrl', '')
+                })
+            else:
+                for key, value in obj.items():
+                    new_path = f"{path}.{key}" if path else key
+                    find_api_sites(value, new_path)
         elif isinstance(obj, list):
-            for item in obj:
-                find_apis(item)
+            for i, item in enumerate(obj):
+                find_api_sites(item, f"{path}[{i}]")
     
-    find_apis(config)
-    # 去重并返回
-    return list(set(apis))
+    # 特别处理api_site字段
+    if 'api_site' in config and isinstance(config['api_site'], dict):
+        for site_id, site_info in config['api_site'].items():
+            if isinstance(site_info, dict) and 'api' in site_info:
+                api_sites.append({
+                    'id': site_id,
+                    'name': site_info.get('name', ''),
+                    'api': site_info.get('api', ''),
+                    'detail': site_info.get('detail', '') or site_info.get('detailUrl', '')
+                })
+    else:
+        # 如果没有api_site字段，尝试在整个配置中查找
+        find_api_sites(config)
+    
+    return api_sites
 
 def process_config_file(input_path, output_dir):
     """处理配置文件"""
@@ -103,43 +145,46 @@ def process_config_file(input_path, output_dir):
     filename = os.path.basename(input_path)
     print(f"\n开始处理文件: {filename}")
     
-    # 提取API地址
-    all_apis = extract_apis_from_config(config)
-    print(f"发现 {len(all_apis)} 个API地址")
+    # 提取API站点信息
+    api_sites = extract_api_sites_from_config(config)
+    print(f"发现 {len(api_sites)} 个API站点")
     
-    if not all_apis:
-        print(f"⚠️ 未找到API地址")
+    if not api_sites:
+        print(f"⚠️ 未找到API站点信息")
         return
     
     # 检测可用的API
-    valid_apis = []
-    for api_url in all_apis:
-        print(f"检查API: {api_url}")
-        if is_api_working(api_url):
-            valid_apis.append(api_url)
+    valid_api_sites = []
+    for site in api_sites:
+        print(f"检查API: {site['api']} ({site['name']})")
+        if is_api_working(site['api']):
+            valid_api_sites.append(site)
             print(f"✅ 可用")
         else:
             print(f"❌ 不可用，已排除")
     
-    print(f"检测完成，可用API数量: {len(valid_apis)}")
+    print(f"检测完成，可用API数量: {len(valid_api_sites)}")
     
     # 生成ouonnkiTV格式的列表文件
     base_name = os.path.splitext(filename)[0]
     if base_name.endswith('-config'):
         ouonnki_name = base_name.replace('-config', '-ouonnkiTV.json')
+        filtered_name = base_name.replace('-config', '-filtered.json')
     else:
         ouonnki_name = f"{base_name}-ouonnkiTV.json"
+        filtered_name = f"{base_name}-filtered.json"
     
     ouonnki_path = os.path.join(output_dir, ouonnki_name)
+    filtered_path = os.path.join(output_dir, filtered_name)
     
     # 创建ouonnkiTV格式的列表
     ouonnki_list = []
-    for i, api_url in enumerate(valid_apis):
-        site_name = f"站点{i+1}"
+    for site in valid_api_sites:
         ouonnki_list.append({
-            "name": site_name,
-            "api": api_url,
-            "id": f"site_{i+1}",
+            "id": site['id'],
+            "name": site['name'],
+            "url": site['api'],
+            "detailUrl": site['detail'],
             "isEnabled": True
         })
     
@@ -148,6 +193,22 @@ def process_config_file(input_path, output_dir):
         json.dump(ouonnki_list, f, ensure_ascii=False, indent=4)
     
     print(f"已生成ouonnkiTV格式文件: {ouonnki_path}")
+    
+    # 生成过滤后的原格式配置文件
+    if 'api_site' in config and isinstance(config['api_site'], dict):
+        # 只保留可用的api_site
+        filtered_api_site = {}
+        for site in valid_api_sites:
+            if site['id'] in config['api_site']:
+                filtered_api_site[site['id']] = config['api_site'][site['id']]
+        
+        filtered_config = config.copy()
+        filtered_config['api_site'] = filtered_api_site
+        
+        with open(filtered_path, 'w', encoding='utf-8') as f:
+            json.dump(filtered_config, f, ensure_ascii=False, indent=4)
+        
+        print(f"已生成过滤后的原格式文件: {filtered_path}")
     
     # 生成base58编码
     base58_filename = f"{os.path.splitext(ouonnki_name)[0]}_base58.txt"
@@ -179,6 +240,9 @@ def main():
     sub_config = os.path.join(input_dir, 'sub-config.json')
     if os.path.exists(sub_config):
         config_files.append(sub_config)
+    
+    # 去重，避免重复处理
+    config_files = list(set(config_files))
     
     if not config_files:
         print(f"警告: {input_dir} 中未找到 *-config.json 或 sub-config.json 文件")
