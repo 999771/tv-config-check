@@ -1,0 +1,230 @@
+[
+    {
+        "name": "站点1",
+        "api": "https://www.jingpinx.com/api.php/provide/vod",
+        "id": "site_1",
+        "isEnabled": true
+    },
+    {
+        "name": "站点2",
+        "api": "https://siwazyw.tv/api.php/provide/vod",
+        "id": "site_2",
+        "isEnabled": true
+    },
+    {
+        "name": "站点3",
+        "api": "https://hsckzy888.com/api.php/provide/vod",
+        "id": "site_3",
+        "isEnabled": true
+    },
+    {
+        "name": "站点4",
+        "api": "https://www.pgxdy.com/api/xml.php",
+        "id": "site_4",
+        "isEnabled": true
+    },
+    {
+        "name": "站点5",
+        "api": "https://caiji.semaozy.net/inc/api.php",
+        "id": "site_5",
+        "isEnabled": true
+    },
+    {
+        "name": "站点6",
+        "api": "http://fhapi9.com/api.php/provide/vod",
+        "id": "site_6",
+        "isEnabled": true
+    },
+    {
+        "name": "站点7",
+        "api": "https://fqzy.me//api.php/provide/vod",
+        "id": "site_7",
+        "isEnabled": true
+    },
+    {
+        "name": "站点8",
+        "api": "https://ckbh1.xyz/api.php/provide/vod",
+        "id": "site_8",
+        "isEnabled": true
+    },
+    {
+        "name": "站点9",
+        "api": "https://91jpzyw.com/api.php/provide/vod",
+        "id": "site_9",
+        "isEnabled": true
+    },
+    {
+        "name": "站点10",
+        "api": "https://jkunzyapi.com/api.php/provide/vod",
+        "id": "site_10",
+        "isEnabled": true
+    },
+    {
+        "name": "站点11",
+        "api": "https://naixxzy.com/api.php/provide/vod",
+        "id": "site_11",
+        "isEnabled": true
+    },
+    {
+        "name": "站点12",
+        "api": "https://www.gdlsp.com/api/xml.php",
+        "id": "site_12",
+        "isEnabled": true
+    },
+    {
+        "name": "站点13",
+        "api": "https://apiyutu.com/api.php/provide/vod",
+        "id": "site_13",
+        "isEnabled": true
+    },
+    {
+        "name": "站点14",
+        "api": "https://ckzy.me/api.php/provide/vod",
+        "id": "site_14",
+        "isEnabled": true
+    },
+    {
+        "name": "站点15",
+        "api": "https://api.souavzy.vip/api.php/provide/vod",
+        "id": "site_15",
+        "isEnabled": true
+    },
+    {
+        "name": "站点16",
+        "api": "https://155api.com/api.php/provide/vod",
+        "id": "site_16",
+        "isEnabled": true
+    },
+    {
+        "name": "站点17",
+        "api": "https://xzybb1.com/api.php/provide/vod",
+        "id": "site_17",
+        "isEnabled": true
+    },
+    {
+        "name": "站点18",
+        "api": "https://api.xiaojizy.live/provide/vod",
+        "id": "site_18",
+        "isEnabled": true
+    },
+    {
+        "name": "站点19",
+        "api": "https://api.ddapi.cc/api.php/provide/vod",
+        "id": "site_19",
+        "isEnabled": true
+    },
+    {
+        "name": "站点20",
+        "api": "https://xingba222.com/api.php/provide/vod",
+        "id": "site_20",
+        "isEnabled": true
+    },
+    {
+        "name": "站点21",
+        "api": "https://api.bwzyz.com/api.php/provide/vod",
+        "id": "site_21",
+        "isEnabled": true
+    },
+    {
+        "name": "站点22",
+        "api": "https://dadiapi.com/api.php/provide/vod",
+        "id": "site_22",
+        "isEnabled": true
+    },
+    {
+        "name": "站点23",
+        "api": "https://www.kxgav.com/api/xml.php",
+        "id": "site_23",
+        "isEnabled": true
+    },
+    {
+        "name": "站点24",
+        "api": "https://thzy1.me/api.php/provide/vod",
+        "id": "site_24",
+        "isEnabled": true
+    },
+    {
+        "name": "站点25",
+        "api": "https://apidanaizi.com/api.php/provide/vod",
+        "id": "site_25",
+        "isEnabled": true
+    },
+    {
+        "name": "站点26",
+        "api": "https://slapibf.com/api.php/provide/vod",
+        "id": "site_26",
+        "isEnabled": true
+    },
+    {
+        "name": "站点27",
+        "api": "https://aosikazy.com/api.php/provide/vod",
+        "id": "site_27",
+        "isEnabled": true
+    },
+    {
+        "name": "站点28",
+        "api": "https://www.yyzywcj.com/api.php/provide/vod",
+        "id": "site_28",
+        "isEnabled": true
+    },
+    {
+        "name": "站点29",
+        "api": "https://apilsbzy1.com/api.php/provide/vod",
+        "id": "site_29",
+        "isEnabled": true
+    },
+    {
+        "name": "站点30",
+        "api": "https://api.zuiseapi.com/api.php/provide/vod",
+        "id": "site_30",
+        "isEnabled": true
+    },
+    {
+        "name": "站点31",
+        "api": "https://api.douapi.cc/api.php/provide/vod",
+        "id": "site_31",
+        "isEnabled": true
+    },
+    {
+        "name": "站点32",
+        "api": "https://apilj.com/api.php/provide/vod",
+        "id": "site_32",
+        "isEnabled": true
+    },
+    {
+        "name": "站点33",
+        "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+        "id": "site_33",
+        "isEnabled": true
+    },
+    {
+        "name": "站点34",
+        "api": "https://www.msnii.com/api/xml.php",
+        "id": "site_34",
+        "isEnabled": true
+    },
+    {
+        "name": "站点35",
+        "api": "https://shayuzy5.com/api.php/provide/vod",
+        "id": "site_35",
+        "isEnabled": true
+    },
+    {
+        "name": "站点36",
+        "api": "https://lbapi9.com/api.php/provide/vod",
+        "id": "site_36",
+        "isEnabled": true
+    },
+    {
+        "name": "站点37",
+        "api": "https://www.xrbsp.com/api/xml.php",
+        "id": "site_37",
+        "isEnabled": true
+    },
+    {
+        "name": "站点38",
+        "api": "https://www.avre06.com/api.php/provide/vod",
+        "id": "site_38",
+        "isEnabled": true
+    }
+]
