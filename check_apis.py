@@ -169,13 +169,10 @@ def process_config_file(input_path, output_dir):
     base_name = os.path.splitext(filename)[0]
     if base_name.endswith('-config'):
         ouonnki_name = base_name.replace('-config', '-ouonnkiTV.json')
-        filtered_name = base_name.replace('-config', '-filtered.json')
     else:
         ouonnki_name = f"{base_name}-ouonnkiTV.json"
-        filtered_name = f"{base_name}-filtered.json"
     
     ouonnki_path = os.path.join(output_dir, ouonnki_name)
-    filtered_path = os.path.join(output_dir, filtered_name)
     
     # 创建ouonnkiTV格式的列表
     ouonnki_list = []
@@ -194,7 +191,7 @@ def process_config_file(input_path, output_dir):
     
     print(f"已生成ouonnkiTV格式文件: {ouonnki_path}")
     
-    # 生成过滤后的原格式配置文件
+    # 生成过滤后的原格式配置文件（保留原文件名）
     if 'api_site' in config and isinstance(config['api_site'], dict):
         # 只保留可用的api_site
         filtered_api_site = {}
@@ -205,22 +202,25 @@ def process_config_file(input_path, output_dir):
         filtered_config = config.copy()
         filtered_config['api_site'] = filtered_api_site
         
+        # 使用原文件名保存过滤后的配置文件
+        filtered_path = os.path.join(output_dir, filename)
+        
         with open(filtered_path, 'w', encoding='utf-8') as f:
             json.dump(filtered_config, f, ensure_ascii=False, indent=4)
         
         print(f"已生成过滤后的原格式文件: {filtered_path}")
-    
-    # 生成base58编码
-    base58_filename = f"{os.path.splitext(ouonnki_name)[0]}_base58.txt"
-    base58_path = os.path.join(output_dir, base58_filename)
-    
-    with open(ouonnki_path, 'rb') as f:
-        base58_encoded = base58.b58encode(f.read()).decode('utf-8')
-    
-    with open(base58_path, 'w', encoding='utf-8') as f:
-        f.write(base58_encoded)
-    
-    print(f"已生成base58编码: {base58_path}")
+        
+        # 仅对检测后的json文件使用base58编码处理
+        base58_filename = f"{os.path.splitext(filename)[0]}_base58.txt"
+        base58_path = os.path.join(output_dir, base58_filename)
+        
+        with open(filtered_path, 'rb') as f:
+            base58_encoded = base58.b58encode(f.read()).decode('utf-8')
+        
+        with open(base58_path, 'w', encoding='utf-8') as f:
+            f.write(base58_encoded)
+        
+        print(f"已生成base58编码: {base58_path}")
 
 def main():
     input_dir = 'Initial'
