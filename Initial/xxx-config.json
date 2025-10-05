@@ -101,11 +101,6 @@
             "name": "白嫖资源",
             "detail": "https://www.bp9.world/cn/home/web/"
         },
-        "xsmzy": {
-            "api": "https://www.afasu.com/api/xml.php",
-            "name": "小师妹资源",
-            "detail": "https://www.xsm8.fit/cn/home/web/"
-        },
         "hazy": {
             "api": "https://www.pgxdy.com/api/xml.php",
             "name": "ha资源",
