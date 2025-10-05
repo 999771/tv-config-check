@@ -1,230 +1,268 @@
 [
     {
-        "name": "站点1",
-        "api": "https://www.jingpinx.com/api.php/provide/vod",
-        "id": "site_1",
+        "id": "bwzy",
+        "name": "百万资源",
+        "url": "https://api.bwzyz.com/api.php/provide/vod",
+        "detailUrl": "https://bwzy.tv",
         "isEnabled": true
     },
     {
-        "name": "站点2",
-        "api": "https://siwazyw.tv/api.php/provide/vod",
-        "id": "site_2",
+        "id": "115zy",
+        "name": "155资源",
+        "url": "https://155api.com/api.php/provide/vod",
+        "detailUrl": "https://155zy.com",
         "isEnabled": true
     },
     {
-        "name": "站点3",
-        "api": "https://hsckzy888.com/api.php/provide/vod",
-        "id": "site_3",
+        "id": "thzy",
+        "name": "桃花资源",
+        "url": "https://thzy1.me/api.php/provide/vod",
+        "detailUrl": "https://thzy1.me",
         "isEnabled": true
     },
     {
-        "name": "站点4",
-        "api": "https://www.pgxdy.com/api/xml.php",
-        "id": "site_4",
+        "id": "askzy",
+        "name": "奥斯卡资源站",
+        "url": "https://aosikazy.com/api.php/provide/vod",
+        "detailUrl": "https://aosikazy.com",
         "isEnabled": true
     },
     {
-        "name": "站点5",
-        "api": "https://caiji.semaozy.net/inc/api.php",
-        "id": "site_5",
+        "id": "dadi",
+        "name": "大地资源",
+        "url": "https://dadiapi.com/api.php/provide/vod",
+        "detailUrl": "https://dadizy.com",
         "isEnabled": true
     },
     {
-        "name": "站点6",
-        "api": "http://fhapi9.com/api.php/provide/vod",
-        "id": "site_6",
+        "id": "slzy",
+        "name": "森林资源",
+        "url": "https://slapibf.com/api.php/provide/vod",
+        "detailUrl": "https://senlinzy.com",
         "isEnabled": true
     },
     {
-        "name": "站点7",
-        "api": "https://fqzy.me//api.php/provide/vod",
-        "id": "site_7",
+        "id": "nxx",
+        "name": "香香资源",
+        "url": "https://naixxzy.com/api.php/provide/vod",
+        "detailUrl": "https://naixxzy1.com",
         "isEnabled": true
     },
     {
-        "name": "站点8",
-        "api": "https://ckbh1.xyz/api.php/provide/vod",
-        "id": "site_8",
+        "id": "ljzy",
+        "name": "辣椒资源",
+        "url": "https://apilj.com/api.php/provide/vod",
+        "detailUrl": "http://lajiaozy.com",
         "isEnabled": true
     },
     {
-        "name": "站点9",
-        "api": "https://91jpzyw.com/api.php/provide/vod",
-        "id": "site_9",
+        "id": "ddzy",
+        "name": "滴滴资源",
+        "url": "https://api.ddapi.cc/api.php/provide/vod",
+        "detailUrl": "https://didizy.com",
         "isEnabled": true
     },
     {
-        "name": "站点10",
-        "api": "https://jkunzyapi.com/api.php/provide/vod",
-        "id": "site_10",
+        "id": "lebo",
+        "name": "s播资源",
+        "url": "https://lbapi9.com/api.php/provide/vod",
+        "detailUrl": "https://lebozy5.com",
         "isEnabled": true
     },
     {
-        "name": "站点11",
-        "api": "https://naixxzy.com/api.php/provide/vod",
-        "id": "site_11",
+        "id": "smzy",
+        "name": "s猫资源",
+        "url": "https://caiji.semaozy.net/inc/api.php",
+        "detailUrl": "https://semaozy5.com",
         "isEnabled": true
     },
     {
-        "name": "站点12",
-        "api": "https://www.gdlsp.com/api/xml.php",
-        "id": "site_12",
+        "id": "syzy",
+        "name": "鲨鱼资源",
+        "url": "https://shayuzy5.com/api.php/provide/vod",
+        "detailUrl": "https://shayuzy5.com",
         "isEnabled": true
     },
     {
-        "name": "站点13",
-        "api": "https://apiyutu.com/api.php/provide/vod",
-        "id": "site_13",
+        "id": "hgzy",
+        "name": "黄瓜资源",
+        "url": "https://www.avre06.com/api.php/provide/vod",
+        "detailUrl": "https://avre00.com",
         "isEnabled": true
     },
     {
-        "name": "站点14",
-        "api": "https://ckzy.me/api.php/provide/vod",
-        "id": "site_14",
+        "id": "jkun",
+        "name": "JKUN资源",
+        "url": "https://jkunzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://jkunzy.com",
         "isEnabled": true
     },
     {
-        "name": "站点15",
-        "api": "https://api.souavzy.vip/api.php/provide/vod",
-        "id": "site_15",
+        "id": "yutu",
+        "name": "玉兔资源",
+        "url": "https://apiyutu.com/api.php/provide/vod",
+        "detailUrl": "https://yutuzy.com",
         "isEnabled": true
     },
     {
-        "name": "站点16",
-        "api": "https://155api.com/api.php/provide/vod",
-        "id": "site_16",
+        "id": "ckzy",
+        "name": "CK资源",
+        "url": "https://ckzy.me/api.php/provide/vod",
+        "detailUrl": "https://ckzy1.com",
         "isEnabled": true
     },
     {
-        "name": "站点17",
-        "api": "https://xzybb1.com/api.php/provide/vod",
-        "id": "site_17",
+        "id": "msnzy",
+        "name": "美少女资源",
+        "url": "https://www.msnii.com/api/xml.php",
+        "detailUrl": "https://www.msn2.yachts/cn/home/web/",
         "isEnabled": true
     },
     {
-        "name": "站点18",
-        "api": "https://api.xiaojizy.live/provide/vod",
-        "id": "site_18",
+        "id": "ysjzy",
+        "name": "饮水机资源",
+        "url": "https://www.xrbsp.com/api/xml.php",
+        "detailUrl": "https://www.ysj7.work/cn/home/web/",
         "isEnabled": true
     },
     {
-        "name": "站点19",
-        "api": "https://api.ddapi.cc/api.php/provide/vod",
-        "id": "site_19",
+        "id": "xnezy",
+        "name": "香nai资源",
+        "url": "https://www.gdlsp.com/api/xml.php",
+        "detailUrl": "https://www.xne5.help/cn/home/web/",
         "isEnabled": true
     },
     {
-        "name": "站点20",
-        "api": "https://xingba222.com/api.php/provide/vod",
-        "id": "site_20",
+        "id": "bpzy",
+        "name": "白嫖资源",
+        "url": "https://www.kxgav.com/api/xml.php",
+        "detailUrl": "https://www.bp9.world/cn/home/web/",
         "isEnabled": true
     },
     {
-        "name": "站点21",
-        "api": "https://api.bwzyz.com/api.php/provide/vod",
-        "id": "site_21",
+        "id": "hazy",
+        "name": "ha资源",
+        "url": "https://www.pgxdy.com/api/xml.php",
+        "detailUrl": "https://www.hav6.motorcycles/cn/home/web/",
         "isEnabled": true
     },
     {
-        "name": "站点22",
-        "api": "https://dadiapi.com/api.php/provide/vod",
-        "id": "site_22",
+        "id": "fhzy",
+        "name": "番号资源",
+        "url": "http://fhapi9.com/api.php/provide/vod",
+        "detailUrl": "http://fhzy10.com",
         "isEnabled": true
     },
     {
-        "name": "站点23",
-        "api": "https://www.kxgav.com/api/xml.php",
-        "id": "site_23",
+        "id": "lspzy",
+        "name": "lsp资源",
+        "url": "https://apilsbzy1.com/api.php/provide/vod",
+        "detailUrl": "https://laosebizy.com",
         "isEnabled": true
     },
     {
-        "name": "站点24",
-        "api": "https://thzy1.me/api.php/provide/vod",
-        "id": "site_24",
+        "id": "xbzy",
+        "name": "细胞资源",
+        "url": "https://www.xxibaozyw.com/api.php/provide/vod",
+        "detailUrl": "https://xxibaozyw.com",
         "isEnabled": true
     },
     {
-        "name": "站点25",
-        "api": "https://apidanaizi.com/api.php/provide/vod",
-        "id": "site_25",
+        "id": "xjzy",
+        "name": "小鸡资源",
+        "url": "https://api.xiaojizy.live/provide/vod",
+        "detailUrl": "https://xiaojizy.live",
         "isEnabled": true
     },
     {
-        "name": "站点26",
-        "api": "https://slapibf.com/api.php/provide/vod",
-        "id": "site_26",
+        "id": "ckbh",
+        "name": "CK百货资源",
+        "url": "https://ckbh1.xyz/api.php/provide/vod",
+        "detailUrl": "https://ckbh.vip",
         "isEnabled": true
     },
     {
-        "name": "站点27",
-        "api": "https://aosikazy.com/api.php/provide/vod",
-        "id": "site_27",
+        "id": "x8zy",
+        "name": "杏吧资源",
+        "url": "https://xingba222.com/api.php/provide/vod",
+        "detailUrl": "https://www.sex8zy.com",
         "isEnabled": true
     },
     {
-        "name": "站点28",
-        "api": "https://www.yyzywcj.com/api.php/provide/vod",
-        "id": "site_28",
+        "id": "sazy",
+        "name": "搜v资源",
+        "url": "https://api.souavzy.vip/api.php/provide/vod",
+        "detailUrl": "https://souavzy2.com",
         "isEnabled": true
     },
     {
-        "name": "站点29",
-        "api": "https://apilsbzy1.com/api.php/provide/vod",
-        "id": "site_29",
+        "id": "hsck",
+        "name": "hs仓库资源",
+        "url": "https://hsckzy888.com/api.php/provide/vod",
+        "detailUrl": "https://hsckzy.cc",
         "isEnabled": true
     },
     {
-        "name": "站点30",
-        "api": "https://api.zuiseapi.com/api.php/provide/vod",
-        "id": "site_30",
+        "id": "jpx",
+        "name": "精品X资源",
+        "url": "https://www.jingpinx.com/api.php/provide/vod",
+        "detailUrl": "https://jingpinx.com",
         "isEnabled": true
     },
     {
-        "name": "站点31",
-        "api": "https://api.douapi.cc/api.php/provide/vod",
-        "id": "site_31",
+        "id": "swzy",
+        "name": "sw资源",
+        "url": "https://siwazyw.tv/api.php/provide/vod",
+        "detailUrl": "https://siwazyw.tv",
         "isEnabled": true
     },
     {
-        "name": "站点32",
-        "api": "https://apilj.com/api.php/provide/vod",
-        "id": "site_32",
+        "id": "xzy",
+        "name": "幸资源",
+        "url": "https://xzybb1.com/api.php/provide/vod",
+        "detailUrl": "https://12xzy.com",
         "isEnabled": true
     },
     {
-        "name": "站点33",
-        "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-        "id": "site_33",
+        "id": "91zy",
+        "name": "91资源",
+        "url": "https://91jpzyw.com/api.php/provide/vod",
+        "detailUrl": "https://91jpzyw.com",
         "isEnabled": true
     },
     {
-        "name": "站点34",
-        "api": "https://www.msnii.com/api/xml.php",
-        "id": "site_34",
+        "id": "fqzy",
+        "name": "番茄资源",
+        "url": "https://fqzy.me//api.php/provide/vod",
+        "detailUrl": "https://fqzy.me/",
         "isEnabled": true
     },
     {
-        "name": "站点35",
-        "api": "https://shayuzy5.com/api.php/provide/vod",
-        "id": "site_35",
+        "id": "yyzy",
+        "name": "优优资源",
+        "url": "https://www.yyzywcj.com/api.php/provide/vod",
+        "detailUrl": "https://yyzywcj.com",
         "isEnabled": true
     },
     {
-        "name": "站点36",
-        "api": "https://lbapi9.com/api.php/provide/vod",
-        "id": "site_36",
+        "id": "dnnzy",
+        "name": "大nai资源",
+        "url": "https://apidanaizi.com/api.php/provide/vod",
+        "detailUrl": "https://www.danaizizy5.com",
         "isEnabled": true
     },
     {
-        "name": "站点37",
-        "api": "https://www.xrbsp.com/api/xml.php",
-        "id": "site_37",
+        "id": "zszy",
+        "name": "最s资源",
+        "url": "https://api.zuiseapi.com/api.php/provide/vod",
+        "detailUrl": "https://zuisezy.com",
         "isEnabled": true
     },
     {
-        "name": "站点38",
-        "api": "https://www.avre06.com/api.php/provide/vod",
-        "id": "site_38",
+        "id": "ddou",
+        "name": "豆豆资源",
+        "url": "https://api.douapi.cc/api.php/provide/vod",
+        "detailUrl": "https://doudouzy.com",
         "isEnabled": true
     }
 ]
