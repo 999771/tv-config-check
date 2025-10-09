@@ -191,6 +191,16 @@
             "name": "魔都资源",
             "detail": "https://moduzy10.com"
         },
+        "aidan": {
+            "api": "https://lovedan.net/api.php/provide/vod",
+            "name": "艾旦影视",
+            "detail": "https://lovedan.net"
+        },
+        "inmi": {
+            "api": "https://www.inmi.app/api.php/provide/vod",
+            "name": "映迷",
+            "detail": "https://www.inmi.app"
+        },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "name": "豪华资源",
