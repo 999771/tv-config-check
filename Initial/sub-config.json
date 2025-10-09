@@ -196,6 +196,11 @@
             "name": "艾旦影视",
             "detail": "https://lovedan.net"
         },
+        "xhys": {
+            "api": "https://www.xiaohys.com/api.php/provide/vod",
+            "name": "小红影视",
+            "detail": "https://www.xiaohys.com"
+        },
         "inmi": {
             "api": "https://www.inmi.app/api.php/provide/vod",
             "name": "映迷",
