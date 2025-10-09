@@ -18,8 +18,18 @@
         },
         "askzy": {
             "api": "https://aosikazy.com/api.php/provide/vod",
-            "name": "奥斯卡资源站",
+            "name": "奥斯卡",
             "detail": "https://aosikazy.com"
+        },
+        "thdao": {
+            "api": "https://www.sextaohua.com/api.php/provide/vod",
+            "name": "桃花岛",
+            "detail": "https://www.sextaohua.com"
+        },
+        "91mdav": {
+            "api": "https://cn.91mdav.com/api.php/provide/vod",
+            "name": "91视频",
+            "detail": "https://cn.91mdav.com"
         },
         "dadi": {
             "api": "https://dadiapi.com/api.php/provide/vod",
