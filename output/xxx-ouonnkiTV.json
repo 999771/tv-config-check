@@ -22,9 +22,23 @@
     },
     {
         "id": "askzy",
-        "name": "奥斯卡资源站",
+        "name": "奥斯卡",
         "url": "https://aosikazy.com/api.php/provide/vod",
         "detailUrl": "https://aosikazy.com",
+        "isEnabled": true
+    },
+    {
+        "id": "thdao",
+        "name": "桃花岛",
+        "url": "https://www.sextaohua.com/api.php/provide/vod",
+        "detailUrl": "https://www.sextaohua.com",
+        "isEnabled": true
+    },
+    {
+        "id": "91mdav",
+        "name": "91视频",
+        "url": "https://cn.91mdav.com/api.php/provide/vod",
+        "detailUrl": "https://cn.91mdav.com",
         "isEnabled": true
     },
     {
@@ -256,6 +270,20 @@
         "name": "最s资源",
         "url": "https://api.zuiseapi.com/api.php/provide/vod",
         "detailUrl": "https://zuisezy.com",
+        "isEnabled": true
+    },
+    {
+        "id": "sng",
+        "name": "s南国资源",
+        "url": "https://api.sexnguon.com/api.php/provide/vod",
+        "detailUrl": "https://sexnguon.com",
+        "isEnabled": true
+    },
+    {
+        "id": "91md",
+        "name": "91麻豆",
+        "url": "https://91md.me/api.php/provide/vod",
+        "detailUrl": "https://91md.me",
         "isEnabled": true
     },
     {

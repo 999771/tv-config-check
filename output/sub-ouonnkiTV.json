@@ -252,6 +252,13 @@
         "isEnabled": true
     },
     {
+        "id": "xhys",
+        "name": "小红影视",
+        "url": "https://www.xiaohys.com/api.php/provide/vod",
+        "detailUrl": "https://www.xiaohys.com",
+        "isEnabled": true
+    },
+    {
         "id": "hhzy",
         "name": "豪华资源",
         "url": "https://hhzyapi.com/api.php/provide/vod",

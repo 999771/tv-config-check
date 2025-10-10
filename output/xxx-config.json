@@ -18,8 +18,18 @@
         },
         "askzy": {
             "api": "https://aosikazy.com/api.php/provide/vod",
-            "name": "奥斯卡资源站",
+            "name": "奥斯卡",
             "detail": "https://aosikazy.com"
+        },
+        "thdao": {
+            "api": "https://www.sextaohua.com/api.php/provide/vod",
+            "name": "桃花岛",
+            "detail": "https://www.sextaohua.com"
+        },
+        "91mdav": {
+            "api": "https://cn.91mdav.com/api.php/provide/vod",
+            "name": "91视频",
+            "detail": "https://cn.91mdav.com"
         },
         "dadi": {
             "api": "https://dadiapi.com/api.php/provide/vod",
@@ -185,6 +195,16 @@
             "api": "https://api.zuiseapi.com/api.php/provide/vod",
             "name": "最s资源",
             "detail": "https://zuisezy.com"
+        },
+        "sng": {
+            "api": "https://api.sexnguon.com/api.php/provide/vod",
+            "name": "s南国资源",
+            "detail": "https://sexnguon.com"
+        },
+        "91md": {
+            "api": "https://91md.me/api.php/provide/vod",
+            "name": "91麻豆",
+            "detail": "https://91md.me"
         },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
