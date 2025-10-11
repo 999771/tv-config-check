@@ -84,6 +84,13 @@
         "isEnabled": true
     },
     {
+        "id": "bdzy",
+        "name": "百度资源",
+        "url": "https://cors.1008008.xyz/?url=https://api.apibdzy.com/api.php/provide/vod",
+        "detailUrl": "https://api.apibdzy.com",
+        "isEnabled": true
+    },
+    {
         "id": "xlzy",
         "name": "新浪资源",
         "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -140,13 +147,6 @@
         "isEnabled": true
     },
     {
-        "id": "wlzy",
-        "name": "卧龙资源",
-        "url": "https://collect.wolongzy.cc/api.php/provide/vod",
-        "detailUrl": "https://wolongzy.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -165,6 +165,13 @@
         "name": "豆瓣资源",
         "url": "https://caiji.dbzy.tv/api.php/provide/vod",
         "detailUrl": "https://doubanziyuan.com",
+        "isEnabled": true
+    },
+    {
+        "id": "mzzy",
+        "name": "魔爪资源",
+        "url": "https://cors.1008008.xyz/?url=https://mozhuazy.com/api.php/provide/vod",
+        "detailUrl": "https://mzzy.me",
         "isEnabled": true
     },
     {
@@ -252,10 +259,24 @@
         "isEnabled": true
     },
     {
+        "id": "aidan",
+        "name": "艾旦影视",
+        "url": "https://cors.1008008.xyz/?url=https://lovedan.net/api.php/provide/vod",
+        "detailUrl": "https://lovedan.net",
+        "isEnabled": true
+    },
+    {
         "id": "xhys",
         "name": "小红影视",
         "url": "https://www.xiaohys.com/api.php/provide/vod",
         "detailUrl": "https://www.xiaohys.com",
+        "isEnabled": true
+    },
+    {
+        "id": "inmi",
+        "name": "映迷",
+        "url": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
+        "detailUrl": "https://www.inmi.app",
         "isEnabled": true
     },
     {
