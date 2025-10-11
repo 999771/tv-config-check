@@ -207,7 +207,7 @@
             "detail": "https://www.inmi.app"
         },
         "tvbyb": {
-            "api": "http://www.tvyb03.com/api.php/provide/vod/at/xml",
+            "api": "http://www.tvyb03.com/api.php/provide/vod",
             "name": "TVB云播",
             "detail": "http://www.tvyb03.com "
         },
