@@ -62,7 +62,7 @@
             "detail": "https://www.taopianzy1.com/index.html"
         },
         "bdzy": {
-            "api": "https://api.apibdzy.com/api.php/provide/vod",
+            "api": "https://cors.1008008.xyz/?url=https://api.apibdzy.com/api.php/provide/vod",
             "name": "百度资源",
             "detail": "https://api.apibdzy.com"
         },
@@ -127,7 +127,7 @@
             "detail": "https://doubanziyuan.com"
         },
         "mzzy": {
-            "api": "https://mozhuazy.com/api.php/provide/vod",
+            "api": "https://cors.1008008.xyz/?url=https://mozhuazy.com/api.php/provide/vod",
             "name": "魔爪资源",
             "detail": "https://mzzy.me"
         },
@@ -192,7 +192,7 @@
             "detail": "https://moduzy10.com"
         },
         "aidan": {
-            "api": "https://lovedan.net/api.php/provide/vod",
+            "api": "https://cors.1008008.xyz/?url=https://lovedan.net/api.php/provide/vod",
             "name": "艾旦影视",
             "detail": "https://lovedan.net"
         },
@@ -202,9 +202,14 @@
             "detail": "https://www.xiaohys.com"
         },
         "inmi": {
-            "api": "https://www.inmi.app/api.php/provide/vod",
+            "api": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
             "name": "映迷",
             "detail": "https://www.inmi.app"
+        },
+        "tvbyb": {
+            "api": "http://www.tvyb03.com/api.php/provide/vod/at/xml",
+            "name": "TVB云播",
+            "detail": "http://www.tvyb03.com "
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
