@@ -3,7 +3,7 @@
     "api_site": {
         "dyttzy": {
             "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
-            "name": "电影天堂资源",
+            "name": "电影天堂",
             "detail": "https://caiji.dyttzyapi.com"
         },
         "iqiyizy": {
@@ -203,7 +203,7 @@
         },
         "inmi": {
             "api": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
-            "name": "映迷",
+            "name": "映迷影视",
             "detail": "https://www.inmi.app"
         },
         "tvbyb": {
