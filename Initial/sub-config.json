@@ -209,7 +209,22 @@
         "tvbyb": {
             "api": "http://www.tvyb03.com/api.php/provide/vod",
             "name": "TVB云播",
-            "detail": "http://www.tvyb03.com "
+            "detail": "http://www.tvyb03.com"
+        },
+        "tyys": {
+            "api": "https://ww66.taiee.lol/api.php/provide/vod",
+            "name": "太乙影视",
+            "detail": "https://ww66.taiee.lol"
+        },
+        "kimi": {
+            "api": "https://kimivod.com/api.php/provide/vod",
+            "name": "kimi影视",
+            "detail": "https://kimivod.com"
+        },
+        "xgyy": {
+            "api": "https://sszzyy.com/api.php/provide/vod",
+            "name": "西瓜影院",
+            "detail": "https://sszzyy.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
