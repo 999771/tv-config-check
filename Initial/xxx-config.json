@@ -188,7 +188,7 @@
         },
         "dnnzy": {
             "api": "https://apidanaizi.com/api.php/provide/vod",
-            "name": "大nai资源",
+            "name": "大nai子资源",
             "detail": "https://www.danaizizy5.com"
         },
         "zszy": {
@@ -205,6 +205,11 @@
             "api": "https://91md.me/api.php/provide/vod",
             "name": "91麻豆",
             "detail": "https://91md.me"
+        },
+        "18shui": {
+            "api": "https://www.18shui.com/api.php/provide/vod",
+            "name": "十八睡",
+            "detail": "https://www.18shui.com/"
         },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
