@@ -1,7 +1,7 @@
 [
     {
         "id": "dyttzy",
-        "name": "电影天堂资源",
+        "name": "电影天堂",
         "url": "https://caiji.dyttzyapi.com/api.php/provide/vod",
         "detailUrl": "https://caiji.dyttzyapi.com",
         "isEnabled": true
@@ -274,7 +274,7 @@
     },
     {
         "id": "inmi",
-        "name": "映迷",
+        "name": "映迷影视",
         "url": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
         "detailUrl": "https://www.inmi.app",
         "isEnabled": true
