@@ -226,6 +226,26 @@
             "name": "西瓜影院",
             "detail": "https://sszzyy.com"
         },
+        "fenwe": {
+            "api": "https://pg.fenwe078.cf/api.php/provide/vod",
+            "name": "四个圈",
+            "detail": "https://pg.fenwe078.cf"
+        },
+        "69mu": {
+            "api": "https://www.69mu.cn/api.php/provide/vod",
+            "name": "69木",
+            "detail": "https://www.69mu.cn"
+        },
+        "jayski": {
+            "api": "https://www.joyski.com.cn/api.php/provide/vod",
+            "name": "墨子资源",
+            "detail": "https://www.joyski.com.cn"
+        },
+        "bhs6": {
+            "api": "https://app.bhs6.com/api.php/provide/vod",
+            "name": "青山资源",
+            "detail": "https://app.bhs6.com"
+        },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "name": "豪华资源",
