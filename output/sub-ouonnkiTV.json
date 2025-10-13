@@ -147,6 +147,13 @@
         "isEnabled": true
     },
     {
+        "id": "wlzy",
+        "name": "卧龙资源",
+        "url": "https://wolongzy.cc/api.php/provide/vod",
+        "detailUrl": "https://wolongzy.cc",
+        "isEnabled": true
+    },
+    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -277,6 +284,20 @@
         "name": "映迷影视",
         "url": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
         "detailUrl": "https://www.inmi.app",
+        "isEnabled": true
+    },
+    {
+        "id": "tyys",
+        "name": "太乙影视",
+        "url": "https://ww66.taiee.lol/api.php/provide/vod",
+        "detailUrl": "https://ww66.taiee.lol",
+        "isEnabled": true
+    },
+    {
+        "id": "xgyy",
+        "name": "西瓜影院",
+        "url": "https://sszzyy.com/api.php/provide/vod",
+        "detailUrl": "https://sszzyy.com",
         "isEnabled": true
     },
     {

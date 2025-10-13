@@ -260,7 +260,7 @@
     },
     {
         "id": "dnnzy",
-        "name": "大nai资源",
+        "name": "大nai子资源",
         "url": "https://apidanaizi.com/api.php/provide/vod",
         "detailUrl": "https://www.danaizizy5.com",
         "isEnabled": true
@@ -284,6 +284,13 @@
         "name": "91麻豆",
         "url": "https://91md.me/api.php/provide/vod",
         "detailUrl": "https://91md.me",
+        "isEnabled": true
+    },
+    {
+        "id": "18shui",
+        "name": "十八睡",
+        "url": "https://www.18shui.com/api.php/provide/vod",
+        "detailUrl": "https://www.18shui.com/",
         "isEnabled": true
     },
     {
