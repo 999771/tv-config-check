@@ -147,13 +147,6 @@
         "isEnabled": true
     },
     {
-        "id": "wlzy",
-        "name": "卧龙资源",
-        "url": "https://wolongzy.cc/api.php/provide/vod",
-        "detailUrl": "https://wolongzy.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -298,6 +291,20 @@
         "name": "西瓜影院",
         "url": "https://sszzyy.com/api.php/provide/vod",
         "detailUrl": "https://sszzyy.com",
+        "isEnabled": true
+    },
+    {
+        "id": "jayski",
+        "name": "墨子资源",
+        "url": "https://www.joyski.com.cn/api.php/provide/vod",
+        "detailUrl": "https://www.joyski.com.cn",
+        "isEnabled": true
+    },
+    {
+        "id": "bhs6",
+        "name": "青山资源",
+        "url": "https://app.bhs6.com/api.php/provide/vod",
+        "detailUrl": "https://app.bhs6.com",
         "isEnabled": true
     },
     {

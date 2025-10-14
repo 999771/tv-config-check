@@ -209,7 +209,47 @@
         "18shui": {
             "api": "https://www.18shui.com/api.php/provide/vod",
             "name": "十八睡",
-            "detail": "https://www.18shui.com/"
+            "detail": "https://www.18shui.com"
+        },
+        "xxavs": {
+            "api": "https://xxavs.com/api.php/provide/vod",
+            "name": "湿乐园",
+            "detail": "https://xxavs.com"
+        },
+        "uezy": {
+            "api": "https://a.uezy.pw/api.php/provide/vod",
+            "name": "优异资源",
+            "detail": "https://a.uezy.pw"
+        },
+        "91av": {
+            "api": "https://91av.cyou/api.php/provide/vod",
+            "name": "91视频",
+            "detail": "https://91av.cyou"
+        },
+        "vnzy": {
+            "api": "https://vnzyz.com/api.php/provide/vod",
+            "name": "越南资源",
+            "detail": "https://vnzyz.com"
+        },
+        "m766": {
+            "api": "https://m766.com/api.php/provide/vod",
+            "name": "黄道长",
+            "detail": "https://m766.com"
+        },
+        "hlzy": {
+            "api": "https://heiliaozyapi.com/api.php/provide/vod",
+            "name": "黑料资源",
+            "detail": "https://heiliaozy.top"
+        },
+        "wkzy": {
+            "api": "https://www.wukcjjk1.cc/api.php/provide/vod",
+            "name": "悟空资源",
+            "detail": "https://wukcjz1.cc"
+        },
+        "nsea": {
+            "api": "https://v.nsea.cc/api.php/provide/vod",
+            "name": "女色资源",
+            "detail": "https://v.nsea.cc"
         },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",

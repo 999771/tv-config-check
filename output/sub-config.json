@@ -106,11 +106,6 @@
             "name": "光速资源",
             "detail": "https://guangsuzy.com"
         },
-        "wlzy": {
-            "api": "https://wolongzy.cc/api.php/provide/vod",
-            "name": "卧龙资源",
-            "detail": "https://wolongzy.cc"
-        },
         "ikzy": {
             "api": "https://ikunzyapi.com/api.php/provide/vod",
             "name": "ikun资源",
@@ -215,6 +210,16 @@
             "api": "https://sszzyy.com/api.php/provide/vod",
             "name": "西瓜影院",
             "detail": "https://sszzyy.com"
+        },
+        "jayski": {
+            "api": "https://www.joyski.com.cn/api.php/provide/vod",
+            "name": "墨子资源",
+            "detail": "https://www.joyski.com.cn"
+        },
+        "bhs6": {
+            "api": "https://app.bhs6.com/api.php/provide/vod",
+            "name": "青山资源",
+            "detail": "https://app.bhs6.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
