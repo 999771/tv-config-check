@@ -246,11 +246,6 @@
             "name": "悟空资源",
             "detail": "https://wukcjz1.cc"
         },
-        "nsea": {
-            "api": "https://v.nsea.cc/api.php/provide/vod",
-            "name": "女色资源",
-            "detail": "https://v.nsea.cc"
-        },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
             "name": "豆豆资源",

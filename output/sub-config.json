@@ -8,7 +8,7 @@
         },
         "iqiyizy": {
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
-            "name": "爱奇艺资源",
+            "name": "爱奇艺",
             "detail": "https://iqiyizy.com"
         },
         "myzy": {
@@ -61,11 +61,6 @@
             "name": "淘片资源",
             "detail": "https://www.taopianzy1.com/index.html"
         },
-        "bdzy": {
-            "api": "https://cors.1008008.xyz/?url=https://api.apibdzy.com/api.php/provide/vod",
-            "name": "百度资源",
-            "detail": "https://api.apibdzy.com"
-        },
         "xlzy": {
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
             "name": "新浪资源",
@@ -106,6 +101,11 @@
             "name": "光速资源",
             "detail": "https://guangsuzy.com"
         },
+        "wlzy": {
+            "api": "https://wolongzy.cc/api.php/provide/vod",
+            "name": "卧龙资源",
+            "detail": "https://wolongzy.cc"
+        },
         "ikzy": {
             "api": "https://ikunzyapi.com/api.php/provide/vod",
             "name": "ikun资源",
@@ -120,11 +120,6 @@
             "api": "https://caiji.dbzy.tv/api.php/provide/vod",
             "name": "豆瓣资源",
             "detail": "https://doubanziyuan.com"
-        },
-        "mzzy": {
-            "api": "https://cors.1008008.xyz/?url=https://mozhuazy.com/api.php/provide/vod",
-            "name": "魔爪资源",
-            "detail": "https://mzzy.me"
         },
         "pbzy": {
             "api": "https://dh.ha.cn/api.php/provide/vod",
@@ -161,11 +156,6 @@
             "name": "虎牙资源",
             "detail": "https://huyaziyuan.com"
         },
-        "yjx": {
-            "api": "https://api.yparse.com/api/json",
-            "name": "云解析资源",
-            "detail": "https://www.yparse.com"
-        },
         "yhzy": {
             "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
             "name": "樱花资源",
@@ -186,40 +176,15 @@
             "name": "魔都资源",
             "detail": "https://moduzy10.com"
         },
-        "aidan": {
-            "api": "https://cors.1008008.xyz/?url=https://lovedan.net/api.php/provide/vod",
-            "name": "艾旦影视",
-            "detail": "https://lovedan.net"
-        },
         "xhys": {
             "api": "https://www.xiaohys.com/api.php/provide/vod",
             "name": "小红影视",
             "detail": "https://www.xiaohys.com"
         },
-        "inmi": {
-            "api": "https://cors.1008008.xyz/?url=https://www.inmi.app/api.php/provide/vod",
-            "name": "映迷影视",
-            "detail": "https://www.inmi.app"
-        },
-        "tyys": {
-            "api": "https://ww66.taiee.lol/api.php/provide/vod",
-            "name": "太乙影视",
-            "detail": "https://ww66.taiee.lol"
-        },
-        "xgyy": {
-            "api": "https://sszzyy.com/api.php/provide/vod",
-            "name": "西瓜影院",
-            "detail": "https://sszzyy.com"
-        },
         "jayski": {
             "api": "https://www.joyski.com.cn/api.php/provide/vod",
             "name": "墨子资源",
             "detail": "https://www.joyski.com.cn"
-        },
-        "bhs6": {
-            "api": "https://app.bhs6.com/api.php/provide/vod",
-            "name": "青山资源",
-            "detail": "https://app.bhs6.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",

@@ -343,13 +343,6 @@
         "isEnabled": true
     },
     {
-        "id": "nsea",
-        "name": "女色资源",
-        "url": "https://v.nsea.cc/api.php/provide/vod",
-        "detailUrl": "https://v.nsea.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ddou",
         "name": "豆豆资源",
         "url": "https://api.douapi.cc/api.php/provide/vod",
