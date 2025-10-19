@@ -196,11 +196,6 @@
             "name": "最s资源",
             "detail": "https://zuisezy.com"
         },
-        "sng": {
-            "api": "https://api.sexnguon.com/api.php/provide/vod",
-            "name": "s南国资源",
-            "detail": "https://sexnguon.com"
-        },
         "91md": {
             "api": "https://91md.me/api.php/provide/vod",
             "name": "91麻豆",
