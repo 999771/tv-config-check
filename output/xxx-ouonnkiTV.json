@@ -273,6 +273,13 @@
         "isEnabled": true
     },
     {
+        "id": "sng",
+        "name": "s南国资源",
+        "url": "https://api.sexnguon.com/api.php/provide/vod",
+        "detailUrl": "https://sexnguon.com",
+        "isEnabled": true
+    },
+    {
         "id": "91md",
         "name": "91麻豆",
         "url": "https://91md.me/api.php/provide/vod",
@@ -312,13 +319,6 @@
         "name": "越南资源",
         "url": "https://vnzyz.com/api.php/provide/vod",
         "detailUrl": "https://vnzyz.com",
-        "isEnabled": true
-    },
-    {
-        "id": "m766",
-        "name": "黄道长",
-        "url": "https://m766.com/api.php/provide/vod",
-        "detailUrl": "https://m766.com",
         "isEnabled": true
     },
     {

@@ -16,6 +16,11 @@
             "name": "猫眼资源",
             "detail": "https://www.maoyanzy.com"
         },
+        "mtzy": {
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+            "name": "茅台资源",
+            "detail": "https://mtzy0.com"
+        },
         "tyzy": {
             "api": "https://tyyszyapi.com/api.php/provide/vod",
             "name": "天涯资源",
