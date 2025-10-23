@@ -168,13 +168,6 @@
         "isEnabled": true
     },
     {
-        "id": "pbzy",
-        "name": "瀑布资源",
-        "url": "https://dh.ha.cn/api.php/provide/vod",
-        "detailUrl": "https://www.pbpan.com/",
-        "isEnabled": true
-    },
-    {
         "id": "nnzy",
         "name": "牛牛资源",
         "url": "https://api.niuniuzy.me/api.php/provide/vod",

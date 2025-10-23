@@ -301,27 +301,6 @@
         "isEnabled": true
     },
     {
-        "id": "uezy",
-        "name": "优异资源",
-        "url": "https://a.uezy.pw/api.php/provide/vod",
-        "detailUrl": "https://a.uezy.pw",
-        "isEnabled": true
-    },
-    {
-        "id": "91av",
-        "name": "91视频",
-        "url": "https://91av.cyou/api.php/provide/vod",
-        "detailUrl": "https://91av.cyou",
-        "isEnabled": true
-    },
-    {
-        "id": "vnzy",
-        "name": "越南资源",
-        "url": "https://vnzyz.com/api.php/provide/vod",
-        "detailUrl": "https://vnzyz.com",
-        "isEnabled": true
-    },
-    {
         "id": "hlzy",
         "name": "黑料资源",
         "url": "https://heiliaozyapi.com/api.php/provide/vod",
