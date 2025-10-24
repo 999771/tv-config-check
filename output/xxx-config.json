@@ -216,6 +216,16 @@
             "name": "湿乐园",
             "detail": "https://xxavs.com"
         },
+        "uezy": {
+            "api": "https://a.uezy.pw/api.php/provide/vod",
+            "name": "优异资源",
+            "detail": "https://a.uezy.pw"
+        },
+        "91av": {
+            "api": "https://91av.cyou/api.php/provide/vod",
+            "name": "91视频",
+            "detail": "https://91av.cyou"
+        },
         "hlzy": {
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "黑料资源",
