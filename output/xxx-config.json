@@ -226,6 +226,11 @@
             "name": "91视频",
             "detail": "https://91av.cyou"
         },
+        "vnzy": {
+            "api": "https://vnzyz.com/api.php/provide/vod",
+            "name": "越南资源",
+            "detail": "https://vnzyz.com"
+        },
         "hlzy": {
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "黑料资源",

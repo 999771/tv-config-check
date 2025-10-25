@@ -315,6 +315,13 @@
         "isEnabled": true
     },
     {
+        "id": "vnzy",
+        "name": "越南资源",
+        "url": "https://vnzyz.com/api.php/provide/vod",
+        "detailUrl": "https://vnzyz.com",
+        "isEnabled": true
+    },
+    {
         "id": "hlzy",
         "name": "黑料资源",
         "url": "https://heiliaozyapi.com/api.php/provide/vod",
