@@ -121,6 +121,11 @@
             "name": "豆瓣资源",
             "detail": "https://doubanziyuan.com"
         },
+        "pbzy": {
+            "api": "https://dh.ha.cn/api.php/provide/vod",
+            "name": "瀑布资源",
+            "detail": "https://www.pbpan.com/"
+        },
         "nnzy": {
             "api": "https://api.niuniuzy.me/api.php/provide/vod",
             "name": "牛牛资源",
@@ -180,11 +185,6 @@
             "api": "https://www.joyski.com.cn/api.php/provide/vod",
             "name": "墨子资源",
             "detail": "https://www.joyski.com.cn"
-        },
-        "hhzy": {
-            "api": "https://hhzyapi.com/api.php/provide/vod",
-            "name": "豪华资源",
-            "detail": "https://www.haohuaziyuan.com/"
         }
     }
 }
