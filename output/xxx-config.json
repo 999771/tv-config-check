@@ -26,11 +26,6 @@
             "name": "桃花岛",
             "detail": "https://www.sextaohua.com"
         },
-        "91mdav": {
-            "api": "https://cn.91mdav.com/api.php/provide/vod",
-            "name": "91视频",
-            "detail": "https://cn.91mdav.com"
-        },
         "dadi": {
             "api": "https://dadiapi.com/api.php/provide/vod",
             "name": "大地资源",
@@ -210,11 +205,6 @@
             "api": "https://www.18shui.com/api.php/provide/vod",
             "name": "十八睡",
             "detail": "https://www.18shui.com"
-        },
-        "xxavs": {
-            "api": "https://xxavs.com/api.php/provide/vod",
-            "name": "湿乐园",
-            "detail": "https://xxavs.com"
         },
         "uezy": {
             "api": "https://a.uezy.pw/api.php/provide/vod",

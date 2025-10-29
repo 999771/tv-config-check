@@ -35,13 +35,6 @@
         "isEnabled": true
     },
     {
-        "id": "91mdav",
-        "name": "91视频",
-        "url": "https://cn.91mdav.com/api.php/provide/vod",
-        "detailUrl": "https://cn.91mdav.com",
-        "isEnabled": true
-    },
-    {
         "id": "dadi",
         "name": "大地资源",
         "url": "https://dadiapi.com/api.php/provide/vod",
@@ -291,13 +284,6 @@
         "name": "十八睡",
         "url": "https://www.18shui.com/api.php/provide/vod",
         "detailUrl": "https://www.18shui.com",
-        "isEnabled": true
-    },
-    {
-        "id": "xxavs",
-        "name": "湿乐园",
-        "url": "https://xxavs.com/api.php/provide/vod",
-        "detailUrl": "https://xxavs.com",
         "isEnabled": true
     },
     {
