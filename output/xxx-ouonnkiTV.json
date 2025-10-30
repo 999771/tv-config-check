@@ -287,6 +287,13 @@
         "isEnabled": true
     },
     {
+        "id": "xxavs",
+        "name": "湿乐园",
+        "url": "https://xxavs.com/api.php/provide/vod",
+        "detailUrl": "https://xxavs.com",
+        "isEnabled": true
+    },
+    {
         "id": "uezy",
         "name": "优异资源",
         "url": "https://a.uezy.pw/api.php/provide/vod",

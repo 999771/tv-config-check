@@ -206,6 +206,11 @@
             "name": "十八睡",
             "detail": "https://www.18shui.com"
         },
+        "xxavs": {
+            "api": "https://xxavs.com/api.php/provide/vod",
+            "name": "湿乐园",
+            "detail": "https://xxavs.com"
+        },
         "uezy": {
             "api": "https://a.uezy.pw/api.php/provide/vod",
             "name": "优异资源",
