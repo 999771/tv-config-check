@@ -226,6 +226,11 @@
             "name": "越南资源",
             "detail": "https://vnzyz.com"
         },
+        "m766": {
+            "api": "https://m766.com/api.php/provide/vod",
+            "name": "黄道长",
+            "detail": "https://m766.com"
+        },
         "hlzy": {
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "黑料资源",
