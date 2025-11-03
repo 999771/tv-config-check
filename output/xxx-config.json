@@ -66,11 +66,6 @@
             "name": "鲨鱼资源",
             "detail": "https://shayuzy5.com"
         },
-        "hgzy": {
-            "api": "https://www.avre06.com/api.php/provide/vod",
-            "name": "黄瓜资源",
-            "detail": "https://avre00.com"
-        },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
             "name": "JKUN资源",

@@ -91,13 +91,6 @@
         "isEnabled": true
     },
     {
-        "id": "hgzy",
-        "name": "黄瓜资源",
-        "url": "https://www.avre06.com/api.php/provide/vod",
-        "detailUrl": "https://avre00.com",
-        "isEnabled": true
-    },
-    {
         "id": "jkun",
         "name": "JKUN资源",
         "url": "https://jkunzyapi.com/api.php/provide/vod",
