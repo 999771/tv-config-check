@@ -206,11 +206,6 @@
             "name": "优异资源",
             "detail": "https://a.uezy.pw"
         },
-        "vnzy": {
-            "api": "https://vnzyz.com/api.php/provide/vod",
-            "name": "越南资源",
-            "detail": "https://vnzyz.com"
-        },
         "m766": {
             "api": "https://m766.com/api.php/provide/vod",
             "name": "黄道长",
