@@ -287,6 +287,13 @@
         "isEnabled": true
     },
     {
+        "id": "vnzy",
+        "name": "越南资源",
+        "url": "https://vnzyz.com/api.php/provide/vod",
+        "detailUrl": "https://vnzyz.com",
+        "isEnabled": true
+    },
+    {
         "id": "m766",
         "name": "黄道长",
         "url": "https://m766.com/api.php/provide/vod",
