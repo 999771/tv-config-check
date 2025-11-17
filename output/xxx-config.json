@@ -196,11 +196,6 @@
             "name": "91麻豆",
             "detail": "https://91md.me"
         },
-        "18shui": {
-            "api": "https://www.18shui.com/api.php/provide/vod",
-            "name": "十八睡",
-            "detail": "https://www.18shui.com"
-        },
         "uezy": {
             "api": "https://a.uezy.pw/api.php/provide/vod",
             "name": "优异资源",
