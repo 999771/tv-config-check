@@ -180,11 +180,6 @@
             "api": "https://www.xiaohys.com/api.php/provide/vod",
             "name": "小红影视",
             "detail": "https://www.xiaohys.com"
-        },
-        "jayski": {
-            "api": "https://www.joyski.com.cn/api.php/provide/vod",
-            "name": "墨子资源",
-            "detail": "https://www.joyski.com.cn"
         }
     }
 }

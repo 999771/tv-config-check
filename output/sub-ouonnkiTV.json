@@ -250,12 +250,5 @@
         "url": "https://www.xiaohys.com/api.php/provide/vod",
         "detailUrl": "https://www.xiaohys.com",
         "isEnabled": true
-    },
-    {
-        "id": "jayski",
-        "name": "墨子资源",
-        "url": "https://www.joyski.com.cn/api.php/provide/vod",
-        "detailUrl": "https://www.joyski.com.cn",
-        "isEnabled": true
     }
 ]
