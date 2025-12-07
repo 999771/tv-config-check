@@ -131,7 +131,7 @@
             "name": "细胞资源",
             "detail": "https://xxibaozyw.com"
         },
-        "xjzy": {
+        "xjizy": {
             "api": "https://api.xiaojizy.live/provide/vod",
             "name": "小鸡资源",
             "detail": "https://xiaojizy.live"
@@ -206,6 +206,11 @@
             "name": "91麻豆",
             "detail": "https://91md.me"
         },
+        "91md": {
+            "api": "https://heiliaozyapi.com/api.php/provide/vod",
+            "name": "91麻豆",
+            "detail": "https://heiliaozy.com"
+        },
         "18shui": {
             "api": "https://www.18shui.com/api.php/provide/vod",
             "name": "十八睡",
@@ -236,10 +241,10 @@
             "name": "黄道长",
             "detail": "https://m766.com"
         },
-        "hlzy": {
-            "api": "https://heiliaozyapi.com/api.php/provide/vod",
-            "name": "黑料资源",
-            "detail": "https://heiliaozy.top"
+        "xjzy": {
+            "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+            "name": "香蕉资源",
+            "detail": "https://www.xiangjiaozyw.com"
         },
         "wkzy": {
             "api": "https://www.wukcjjk1.cc/api.php/provide/vod",
