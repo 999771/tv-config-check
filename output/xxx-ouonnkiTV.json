@@ -168,7 +168,7 @@
         "isEnabled": true
     },
     {
-        "id": "xjzy",
+        "id": "xjizy",
         "name": "小鸡资源",
         "url": "https://api.xiaojizy.live/provide/vod",
         "detailUrl": "https://xiaojizy.live",
@@ -252,17 +252,10 @@
         "isEnabled": true
     },
     {
-        "id": "sng",
-        "name": "s南国资源",
-        "url": "https://api.sexnguon.com/api.php/provide/vod",
-        "detailUrl": "https://sexnguon.com",
-        "isEnabled": true
-    },
-    {
         "id": "91md",
         "name": "91麻豆",
-        "url": "https://91md.me/api.php/provide/vod",
-        "detailUrl": "https://91md.me",
+        "url": "https://heiliaozyapi.com/api.php/provide/vod",
+        "detailUrl": "https://heiliaozy.com",
         "isEnabled": true
     },
     {
@@ -294,10 +287,10 @@
         "isEnabled": true
     },
     {
-        "id": "hlzy",
-        "name": "黑料资源",
-        "url": "https://heiliaozyapi.com/api.php/provide/vod",
-        "detailUrl": "https://heiliaozy.top",
+        "id": "xjzy",
+        "name": "香蕉资源",
+        "url": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+        "detailUrl": "https://www.xiangjiaozyw.com",
         "isEnabled": true
     },
     {
