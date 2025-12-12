@@ -294,13 +294,6 @@
         "isEnabled": true
     },
     {
-        "id": "wkzy",
-        "name": "悟空资源",
-        "url": "https://www.wukcjjk1.cc/api.php/provide/vod",
-        "detailUrl": "https://wukcjz1.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ddou",
         "name": "豆豆资源",
         "url": "https://api.douapi.cc/api.php/provide/vod",

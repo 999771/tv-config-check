@@ -211,11 +211,6 @@
             "name": "香蕉资源",
             "detail": "https://www.xiangjiaozyw.com"
         },
-        "wkzy": {
-            "api": "https://www.wukcjjk1.cc/api.php/provide/vod",
-            "name": "悟空资源",
-            "detail": "https://wukcjz1.cc"
-        },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
             "name": "豆豆资源",
