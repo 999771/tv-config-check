@@ -6,6 +6,11 @@
             "name": "155资源",
             "detail": "https://155zy.com"
         },
+        "thzy": {
+            "api": "https://thzy1.me/api.php/provide/vod",
+            "name": "桃花资源",
+            "detail": "https://thzy1.me"
+        },
         "askzy": {
             "api": "https://aosikazy.com/api.php/provide/vod",
             "name": "奥斯卡",
@@ -61,6 +66,11 @@
             "name": "玉兔资源",
             "detail": "https://yutuzy.com"
         },
+        "ckzy": {
+            "api": "https://ckzy.me/api.php/provide/vod",
+            "name": "CK资源",
+            "detail": "https://ckzy1.com"
+        },
         "msnzy": {
             "api": "https://www.msnii.com/api/xml.php",
             "name": "美少女资源",
@@ -106,6 +116,11 @@
             "name": "小鸡资源",
             "detail": "https://xiaojizy.live"
         },
+        "ckbh": {
+            "api": "https://ckbh1.xyz/api.php/provide/vod",
+            "name": "CK百货资源",
+            "detail": "https://ckbh.vip"
+        },
         "x8zy": {
             "api": "https://xingba222.com/api.php/provide/vod",
             "name": "杏吧资源",
@@ -115,6 +130,11 @@
             "api": "https://hsckzy888.com/api.php/provide/vod",
             "name": "hs仓库资源",
             "detail": "https://hsckzy.cc"
+        },
+        "jpx": {
+            "api": "https://www.jingpinx.com/api.php/provide/vod",
+            "name": "精品X资源",
+            "detail": "https://jingpinx.com"
         },
         "swzy": {
             "api": "https://siwazyw.tv/api.php/provide/vod",
@@ -130,6 +150,11 @@
             "api": "https://91jpzyw.com/api.php/provide/vod",
             "name": "91资源",
             "detail": "https://91jpzyw.com"
+        },
+        "fqzy": {
+            "api": "https://fqzy.me//api.php/provide/vod",
+            "name": "番茄资源",
+            "detail": "https://fqzy.me/"
         },
         "yyzy": {
             "api": "https://www.yyzywcj.com/api.php/provide/vod",

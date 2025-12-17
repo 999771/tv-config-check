@@ -7,6 +7,13 @@
         "isEnabled": true
     },
     {
+        "id": "thzy",
+        "name": "桃花资源",
+        "url": "https://thzy1.me/api.php/provide/vod",
+        "detailUrl": "https://thzy1.me",
+        "isEnabled": true
+    },
+    {
         "id": "askzy",
         "name": "奥斯卡",
         "url": "https://aosikazy.com/api.php/provide/vod",
@@ -84,6 +91,13 @@
         "isEnabled": true
     },
     {
+        "id": "ckzy",
+        "name": "CK资源",
+        "url": "https://ckzy.me/api.php/provide/vod",
+        "detailUrl": "https://ckzy1.com",
+        "isEnabled": true
+    },
+    {
         "id": "msnzy",
         "name": "美少女资源",
         "url": "https://www.msnii.com/api/xml.php",
@@ -147,6 +161,13 @@
         "isEnabled": true
     },
     {
+        "id": "ckbh",
+        "name": "CK百货资源",
+        "url": "https://ckbh1.xyz/api.php/provide/vod",
+        "detailUrl": "https://ckbh.vip",
+        "isEnabled": true
+    },
+    {
         "id": "x8zy",
         "name": "杏吧资源",
         "url": "https://xingba222.com/api.php/provide/vod",
@@ -158,6 +179,13 @@
         "name": "hs仓库资源",
         "url": "https://hsckzy888.com/api.php/provide/vod",
         "detailUrl": "https://hsckzy.cc",
+        "isEnabled": true
+    },
+    {
+        "id": "jpx",
+        "name": "精品X资源",
+        "url": "https://www.jingpinx.com/api.php/provide/vod",
+        "detailUrl": "https://jingpinx.com",
         "isEnabled": true
     },
     {
@@ -179,6 +207,13 @@
         "name": "91资源",
         "url": "https://91jpzyw.com/api.php/provide/vod",
         "detailUrl": "https://91jpzyw.com",
+        "isEnabled": true
+    },
+    {
+        "id": "fqzy",
+        "name": "番茄资源",
+        "url": "https://fqzy.me//api.php/provide/vod",
+        "detailUrl": "https://fqzy.me/",
         "isEnabled": true
     },
     {
