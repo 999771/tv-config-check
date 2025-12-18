@@ -1,5 +1,12 @@
 [
     {
+        "id": "bwzy",
+        "name": "百万资源",
+        "url": "https://api.bwzyz.com/api.php/provide/vod",
+        "detailUrl": "https://bwzy.tv",
+        "isEnabled": true
+    },
+    {
         "id": "115zy",
         "name": "155资源",
         "url": "https://155api.com/api.php/provide/vod",
@@ -172,13 +179,6 @@
         "name": "杏吧资源",
         "url": "https://xingba222.com/api.php/provide/vod",
         "detailUrl": "https://www.sex8zy.com",
-        "isEnabled": true
-    },
-    {
-        "id": "hsck",
-        "name": "hs仓库资源",
-        "url": "https://hsckzy888.com/api.php/provide/vod",
-        "detailUrl": "https://hsckzy.cc",
         "isEnabled": true
     },
     {
