@@ -182,6 +182,13 @@
         "isEnabled": true
     },
     {
+        "id": "hsck",
+        "name": "hs仓库资源",
+        "url": "https://hsckzy888.com/api.php/provide/vod",
+        "detailUrl": "https://hsckzy.cc",
+        "isEnabled": true
+    },
+    {
         "id": "jpx",
         "name": "精品X资源",
         "url": "https://www.jingpinx.com/api.php/provide/vod",

@@ -31,11 +31,6 @@
             "name": "如意资源",
             "detail": "https://www.ryzyw.com"
         },
-        "plzy": {
-            "api": "https://p2100.net/api.php/provide/vod",
-            "name": "飘零资源",
-            "detail": "https://p2100.net"
-        },
         "lzzy": {
             "api": "https://cj.lziapi.com/api.php/provide/vod",
             "name": "量子资源",
@@ -115,6 +110,11 @@
             "api": "https://api.wwzy.tv/api.php/provide/vod",
             "name": "旺旺短剧",
             "detail": "https://www.wwzy.tv"
+        },
+        "dbzy": {
+            "api": "https://caiji.dbzy.tv/api.php/provide/vod",
+            "name": "豆瓣资源",
+            "detail": "https://doubanziyuan.com"
         },
         "pbzy": {
             "api": "https://dh.ha.cn/api.php/provide/vod",

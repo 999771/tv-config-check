@@ -131,6 +131,11 @@
             "name": "杏吧资源",
             "detail": "https://www.sex8zy.com"
         },
+        "hsck": {
+            "api": "https://hsckzy888.com/api.php/provide/vod",
+            "name": "hs仓库资源",
+            "detail": "https://hsckzy.cc"
+        },
         "jpx": {
             "api": "https://www.jingpinx.com/api.php/provide/vod",
             "name": "精品X资源",

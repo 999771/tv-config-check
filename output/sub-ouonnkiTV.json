@@ -42,13 +42,6 @@
         "isEnabled": true
     },
     {
-        "id": "plzy",
-        "name": "飘零资源",
-        "url": "https://p2100.net/api.php/provide/vod",
-        "detailUrl": "https://p2100.net",
-        "isEnabled": true
-    },
-    {
         "id": "lzzy",
         "name": "量子资源",
         "url": "https://cj.lziapi.com/api.php/provide/vod",
@@ -158,6 +151,13 @@
         "name": "旺旺短剧",
         "url": "https://api.wwzy.tv/api.php/provide/vod",
         "detailUrl": "https://www.wwzy.tv",
+        "isEnabled": true
+    },
+    {
+        "id": "dbzy",
+        "name": "豆瓣资源",
+        "url": "https://caiji.dbzy.tv/api.php/provide/vod",
+        "detailUrl": "https://doubanziyuan.com",
         "isEnabled": true
     },
     {
