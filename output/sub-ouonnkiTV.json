@@ -42,6 +42,13 @@
         "isEnabled": true
     },
     {
+        "id": "plzy",
+        "name": "飘零资源",
+        "url": "https://p2100.net/api.php/provide/vod",
+        "detailUrl": "https://p2100.net",
+        "isEnabled": true
+    },
+    {
         "id": "lzzy",
         "name": "量子资源",
         "url": "https://cj.lziapi.com/api.php/provide/vod",
