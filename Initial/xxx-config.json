@@ -36,6 +36,11 @@
             "name": "大地资源",
             "detail": "https://dadizy.com"
         },
+        "cbzy": {
+            "api": "https://www.caobizy.com/api.php/provide/vod",
+            "name": "艹B资源",
+            "detail": "https://www.caobizy.com"
+        },
         "slzy": {
             "api": "https://slapibf.com/api.php/provide/vod",
             "name": "森林资源",
