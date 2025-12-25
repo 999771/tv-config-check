@@ -231,13 +231,6 @@
         "isEnabled": true
     },
     {
-        "id": "91md",
-        "name": "91麻豆",
-        "url": "https://heiliaozyapi.com/api.php/provide/vod",
-        "detailUrl": "https://heiliaozy.com",
-        "isEnabled": true
-    },
-    {
         "id": "18shui",
         "name": "十八睡",
         "url": "https://www.18shui.com/api.php/provide/vod",
