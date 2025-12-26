@@ -31,6 +31,11 @@
             "name": "大地资源",
             "detail": "https://dadizy.com"
         },
+        "cbzy": {
+            "api": "https://www.caobizy.com/api.php/provide/vod",
+            "name": "艹B资源",
+            "detail": "https://www.caobizy.com"
+        },
         "slzy": {
             "api": "https://slapibf.com/api.php/provide/vod",
             "name": "森林资源",
@@ -40,6 +45,11 @@
             "api": "https://naixxzy.com/api.php/provide/vod",
             "name": "香香资源",
             "detail": "https://naixxzy1.com"
+        },
+        "ljzy": {
+            "api": "https://apilj.com/api.php/provide/vod",
+            "name": "辣椒资源",
+            "detail": "http://lajiaozy.com"
         },
         "ddzy": {
             "api": "https://api.ddapi.cc/api.php/provide/vod",
@@ -60,11 +70,6 @@
             "api": "https://jkunzyapi.com/api.php/provide/vod",
             "name": "JKUN资源",
             "detail": "https://jkunzy.com"
-        },
-        "yutu": {
-            "api": "https://apiyutu.com/api.php/provide/vod",
-            "name": "玉兔资源",
-            "detail": "https://yutuzy.com"
         },
         "ckzy": {
             "api": "https://ckzy.me/api.php/provide/vod",
@@ -100,11 +105,6 @@
             "api": "http://fhapi9.com/api.php/provide/vod",
             "name": "番号资源",
             "detail": "http://fhzy10.com"
-        },
-        "lspzy": {
-            "api": "https://apilsbzy1.com/api.php/provide/vod",
-            "name": "lsp资源",
-            "detail": "https://laosebizy.com"
         },
         "xbzy": {
             "api": "https://www.xxibaozyw.com/api.php/provide/vod",
@@ -165,6 +165,11 @@
             "api": "https://apidanaizi.com/api.php/provide/vod",
             "name": "大nai子资源",
             "detail": "https://www.danaizizy5.com"
+        },
+        "91md": {
+            "api": "https://heiliaozyapi.com/api.php/provide/vod",
+            "name": "91麻豆",
+            "detail": "https://heiliaozy.com"
         },
         "18shui": {
             "api": "https://www.18shui.com/api.php/provide/vod",
