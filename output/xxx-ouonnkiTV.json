@@ -98,6 +98,13 @@
         "isEnabled": true
     },
     {
+        "id": "yutu",
+        "name": "玉兔资源",
+        "url": "https://apiyutu.com/api.php/provide/vod",
+        "detailUrl": "https://yutuzy.com",
+        "isEnabled": true
+    },
+    {
         "id": "ckzy",
         "name": "CK资源",
         "url": "https://ckzy.me/api.php/provide/vod",

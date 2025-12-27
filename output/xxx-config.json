@@ -71,6 +71,11 @@
             "name": "JKUN资源",
             "detail": "https://jkunzy.com"
         },
+        "yutu": {
+            "api": "https://apiyutu.com/api.php/provide/vod",
+            "name": "玉兔资源",
+            "detail": "https://yutuzy.com"
+        },
         "ckzy": {
             "api": "https://ckzy.me/api.php/provide/vod",
             "name": "CK资源",

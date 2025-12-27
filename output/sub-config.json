@@ -185,6 +185,11 @@
             "api": "https://www.xiaohys.com/api.php/provide/vod",
             "name": "小红影视",
             "detail": "https://www.xiaohys.com"
+        },
+        "hhzy": {
+            "api": "https://hhzyapi.com/api.php/provide/vod",
+            "name": "豪华资源",
+            "detail": "https://www.haohuaziyuan.com/"
         }
     }
 }
