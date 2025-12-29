@@ -111,6 +111,11 @@
             "name": "番号资源",
             "detail": "http://fhzy10.com"
         },
+        "lspzy": {
+            "api": "https://apilsbzy1.com/api.php/provide/vod",
+            "name": "lsp资源",
+            "detail": "https://laosebizy.com"
+        },
         "xbzy": {
             "api": "https://www.xxibaozyw.com/api.php/provide/vod",
             "name": "细胞资源",
@@ -175,16 +180,6 @@
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "91麻豆",
             "detail": "https://heiliaozy.com"
-        },
-        "18shui": {
-            "api": "https://www.18shui.com/api.php/provide/vod",
-            "name": "十八睡",
-            "detail": "https://www.18shui.com"
-        },
-        "uezy": {
-            "api": "https://a.uezy.pw/api.php/provide/vod",
-            "name": "优异资源",
-            "detail": "https://a.uezy.pw"
         },
         "vnzy": {
             "api": "https://vnzyz.com/api.php/provide/vod",
