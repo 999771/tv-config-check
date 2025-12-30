@@ -231,13 +231,6 @@
         "isEnabled": true
     },
     {
-        "id": "360zy",
-        "name": "360资源",
-        "url": "https://360zy.com/api.php/provide/vod",
-        "detailUrl": "https://360zy10.com",
-        "isEnabled": true
-    },
-    {
         "id": "bfzy",
         "name": "暴风资源",
         "url": "https://bfzyapi.com/api.php/provide/vod",
@@ -249,13 +242,6 @@
         "name": "魔都资源",
         "url": "https://www.mdzyapi.com/api.php/provide/vod",
         "detailUrl": "https://moduzy10.com",
-        "isEnabled": true
-    },
-    {
-        "id": "xhys",
-        "name": "小红影视",
-        "url": "https://www.xiaohys.com/api.php/provide/vod",
-        "detailUrl": "https://www.xiaohys.com",
         "isEnabled": true
     },
     {
