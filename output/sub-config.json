@@ -91,6 +91,11 @@
             "name": "闪电资源",
             "detail": "https://shandianzy.cc"
         },
+        "ukzy": {
+            "api": "https://api.ukuapi88.com/api.php/provide/vod",
+            "name": "U酷资源",
+            "detail": "https://ukuzy1.com"
+        },
         "gszy": {
             "api": "https://api.guangsuapi.com/api.php/provide/vod",
             "name": "光速资源",
@@ -146,6 +151,11 @@
             "name": "速播资源",
             "detail": "https://www.subozy.com"
         },
+        "hyzy": {
+            "api": "https://www.huyaapi.com/api.php/provide/vod",
+            "name": "虎牙资源",
+            "detail": "https://huyaziyuan.com"
+        },
         "yhzy": {
             "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
             "name": "樱花资源",
@@ -165,11 +175,6 @@
             "api": "https://www.mdzyapi.com/api.php/provide/vod",
             "name": "魔都资源",
             "detail": "https://moduzy10.com"
-        },
-        "xhys": {
-            "api": "https://www.xiaohys.com/api.php/provide/vod",
-            "name": "小红影视",
-            "detail": "https://www.xiaohys.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",

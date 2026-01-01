@@ -126,6 +126,13 @@
         "isEnabled": true
     },
     {
+        "id": "ukzy",
+        "name": "U酷资源",
+        "url": "https://api.ukuapi88.com/api.php/provide/vod",
+        "detailUrl": "https://ukuzy1.com",
+        "isEnabled": true
+    },
+    {
         "id": "gszy",
         "name": "光速资源",
         "url": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -203,6 +210,13 @@
         "isEnabled": true
     },
     {
+        "id": "hyzy",
+        "name": "虎牙资源",
+        "url": "https://www.huyaapi.com/api.php/provide/vod",
+        "detailUrl": "https://huyaziyuan.com",
+        "isEnabled": true
+    },
+    {
         "id": "yhzy",
         "name": "樱花资源",
         "url": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
@@ -228,13 +242,6 @@
         "name": "魔都资源",
         "url": "https://www.mdzyapi.com/api.php/provide/vod",
         "detailUrl": "https://moduzy10.com",
-        "isEnabled": true
-    },
-    {
-        "id": "xhys",
-        "name": "小红影视",
-        "url": "https://www.xiaohys.com/api.php/provide/vod",
-        "detailUrl": "https://www.xiaohys.com",
         "isEnabled": true
     },
     {

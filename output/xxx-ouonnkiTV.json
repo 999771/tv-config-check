@@ -49,6 +49,13 @@
         "isEnabled": true
     },
     {
+        "id": "slzy",
+        "name": "森林资源",
+        "url": "https://slapibf.com/api.php/provide/vod",
+        "detailUrl": "https://senlinzy.com",
+        "isEnabled": true
+    },
+    {
         "id": "nxx",
         "name": "香香资源",
         "url": "https://naixxzy.com/api.php/provide/vod",
