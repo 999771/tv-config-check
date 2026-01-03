@@ -21,6 +21,13 @@
         "isEnabled": true
     },
     {
+        "id": "myzy",
+        "name": "猫眼资源",
+        "url": "https://api.maoyanapi.top/api.php/provide/vod",
+        "detailUrl": "https://www.maoyanzy.com",
+        "isEnabled": true
+    },
+    {
         "id": "mtzy",
         "name": "茅台资源",
         "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
@@ -235,6 +242,13 @@
         "name": "魔都资源",
         "url": "https://www.mdzyapi.com/api.php/provide/vod",
         "detailUrl": "https://moduzy10.com",
+        "isEnabled": true
+    },
+    {
+        "id": "xhys",
+        "name": "小红影视",
+        "url": "https://www.xiaohys.com/api.php/provide/vod",
+        "detailUrl": "https://www.xiaohys.com",
         "isEnabled": true
     },
     {
