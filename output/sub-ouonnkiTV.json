@@ -7,6 +7,13 @@
         "isEnabled": true
     },
     {
+        "id": "lsttzy",
+        "name": "乐视天堂",
+        "url": "https://sbdui.click/api.php/provide/vod",
+        "detailUrl": "https://sbdui.click",
+        "isEnabled": true
+    },
+    {
         "id": "iqiyizy",
         "name": "iqiyi资源",
         "url": "https://iqiyizyapi.com/api.php/provide/vod",

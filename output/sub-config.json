@@ -6,6 +6,11 @@
             "name": "电影天堂",
             "detail": "https://caiji.dyttzyapi.com"
         },
+        "lsttzy": {
+            "api": "https://sbdui.click/api.php/provide/vod",
+            "name": "乐视天堂",
+            "detail": "https://sbdui.click"
+        },
         "iqiyizy": {
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "name": "iqiyi资源",
