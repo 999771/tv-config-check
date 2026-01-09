@@ -176,6 +176,11 @@
             "name": "魔都资源",
             "detail": "https://moduzy10.com"
         },
+        "xhys": {
+            "api": "https://www.xiaohys.com/api.php/provide/vod",
+            "name": "小红影视",
+            "detail": "https://www.xiaohys.com"
+        },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "name": "豪华资源",
