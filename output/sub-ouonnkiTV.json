@@ -35,6 +35,13 @@
         "isEnabled": true
     },
     {
+        "id": "tyzy",
+        "name": "天涯资源",
+        "url": "https://tyyszyapi.com/api.php/provide/vod",
+        "detailUrl": "https://tyyszy.com",
+        "isEnabled": true
+    },
+    {
         "id": "ruyi",
         "name": "如意资源",
         "url": "https://cj.rycjapi.com/api.php/provide/vod",
