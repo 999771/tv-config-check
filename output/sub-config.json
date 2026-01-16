@@ -116,11 +116,6 @@
             "name": "旺旺短剧",
             "detail": "https://www.wwzy.tv"
         },
-        "dbzy": {
-            "api": "https://caiji.dbzy.tv/api.php/provide/vod",
-            "name": "豆瓣资源",
-            "detail": "https://doubanziyuan.com"
-        },
         "pbzy": {
             "api": "https://dh.ha.cn/api.php/provide/vod",
             "name": "瀑布资源",
