@@ -126,13 +126,6 @@
         "isEnabled": true
     },
     {
-        "id": "ukzy",
-        "name": "U酷资源",
-        "url": "https://api.ukuapi88.com/api.php/provide/vod",
-        "detailUrl": "https://ukuzy1.com",
-        "isEnabled": true
-    },
-    {
         "id": "gszy",
         "name": "光速资源",
         "url": "https://api.guangsuapi.com/api.php/provide/vod",
@@ -165,6 +158,13 @@
         "name": "豆瓣资源",
         "url": "https://caiji.dbzy.tv/api.php/provide/vod",
         "detailUrl": "https://doubanziyuan.com",
+        "isEnabled": true
+    },
+    {
+        "id": "pbzy",
+        "name": "瀑布资源",
+        "url": "https://dh.ha.cn/api.php/provide/vod",
+        "detailUrl": "https://www.pbpan.com/",
         "isEnabled": true
     },
     {
