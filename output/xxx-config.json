@@ -156,11 +156,6 @@
             "name": "幸资源",
             "detail": "https://12xzy.com"
         },
-        "91zy": {
-            "api": "https://91jpzyw.com/api.php/provide/vod",
-            "name": "91资源",
-            "detail": "https://91jpzyw.com"
-        },
         "fqzy": {
             "api": "https://fqzy.me//api.php/provide/vod",
             "name": "番茄资源",
