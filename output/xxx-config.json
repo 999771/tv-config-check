@@ -66,6 +66,11 @@
             "name": "s猫资源",
             "detail": "https://semaozy5.com"
         },
+        "syzy": {
+            "api": "https://shayuzy5.com/api.php/provide/vod",
+            "name": "鲨鱼资源",
+            "detail": "https://shayuzy5.com"
+        },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
             "name": "JKUN资源",

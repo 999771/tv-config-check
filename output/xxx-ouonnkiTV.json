@@ -91,6 +91,13 @@
         "isEnabled": true
     },
     {
+        "id": "syzy",
+        "name": "鲨鱼资源",
+        "url": "https://shayuzy5.com/api.php/provide/vod",
+        "detailUrl": "https://shayuzy5.com",
+        "isEnabled": true
+    },
+    {
         "id": "jkun",
         "name": "JKUN资源",
         "url": "https://jkunzyapi.com/api.php/provide/vod",
