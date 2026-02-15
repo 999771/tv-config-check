@@ -217,13 +217,6 @@
         "isEnabled": true
     },
     {
-        "id": "xzy",
-        "name": "幸资源",
-        "url": "https://xzybb1.com/api.php/provide/vod",
-        "detailUrl": "https://12xzy.com",
-        "isEnabled": true
-    },
-    {
         "id": "fqzy",
         "name": "番茄资源",
         "url": "https://fqzy.me//api.php/provide/vod",
