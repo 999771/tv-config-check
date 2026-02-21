@@ -26,11 +26,6 @@
             "name": "桃花岛",
             "detail": "https://www.sextaohua.com"
         },
-        "dadi": {
-            "api": "https://dadiapi.com/api.php/provide/vod",
-            "name": "大地资源",
-            "detail": "https://dadizy.com"
-        },
         "cbzy": {
             "api": "https://www.caobizy.com/api.php/provide/vod",
             "name": "艹B资源",
@@ -46,30 +41,15 @@
             "name": "香香资源",
             "detail": "https://naixxzy1.com"
         },
-        "ljzy": {
-            "api": "https://apilj.com/api.php/provide/vod",
-            "name": "辣椒资源",
-            "detail": "http://lajiaozy.com"
-        },
         "ddzy": {
             "api": "https://api.ddapi.cc/api.php/provide/vod",
             "name": "滴滴资源",
             "detail": "https://didizy.com"
         },
-        "lebo": {
-            "api": "https://lbapi9.com/api.php/provide/vod",
-            "name": "s播资源",
-            "detail": "https://lebozy5.com"
-        },
         "smzy": {
             "api": "https://caiji.semaozy.net/inc/api.php",
             "name": "s猫资源",
             "detail": "https://semaozy5.com"
-        },
-        "syzy": {
-            "api": "https://shayuzy5.com/api.php/provide/vod",
-            "name": "鲨鱼资源",
-            "detail": "https://shayuzy5.com"
         },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
@@ -111,20 +91,10 @@
             "name": "ha资源",
             "detail": "https://www.hav6.motorcycles/cn/home/web/"
         },
-        "fhzy": {
-            "api": "http://fhapi9.com/api.php/provide/vod",
-            "name": "番号资源",
-            "detail": "http://fhzy10.com"
-        },
         "lspzy": {
             "api": "https://apilsbzy1.com/api.php/provide/vod",
             "name": "lsp资源",
             "detail": "https://laosebizy.com"
-        },
-        "xbzy": {
-            "api": "https://www.xxibaozyw.com/api.php/provide/vod",
-            "name": "细胞资源",
-            "detail": "https://xxibaozyw.com"
         },
         "xjizy": {
             "api": "https://api.xiaojizy.live/provide/vod",
@@ -151,11 +121,6 @@
             "name": "精品X资源",
             "detail": "https://jingpinx.com"
         },
-        "swzy": {
-            "api": "https://siwazyw.tv/api.php/provide/vod",
-            "name": "sw资源",
-            "detail": "https://siwazyw.tv"
-        },
         "xzy": {
             "api": "https://xzybb1.com/api.php/provide/vod",
             "name": "幸资源",
@@ -176,11 +141,6 @@
             "name": "大nai子资源",
             "detail": "https://www.danaizizy5.com"
         },
-        "91md": {
-            "api": "https://heiliaozyapi.com/api.php/provide/vod",
-            "name": "91麻豆",
-            "detail": "https://heiliaozy.com"
-        },
         "vnzy": {
             "api": "https://vnzyz.com/api.php/provide/vod",
             "name": "越南资源",
@@ -190,11 +150,6 @@
             "api": "https://m766.com/api.php/provide/vod",
             "name": "黄道长",
             "detail": "https://m766.com"
-        },
-        "xjzy": {
-            "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
-            "name": "香蕉资源",
-            "detail": "https://www.xiangjiaozyw.com"
         },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
