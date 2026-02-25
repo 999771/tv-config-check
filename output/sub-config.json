@@ -16,6 +16,11 @@
             "name": "iqiyi资源",
             "detail": "https://iqiyizy.com"
         },
+        "myzy": {
+            "api": "https://api.maoyanapi.top/api.php/provide/vod",
+            "name": "猫眼资源",
+            "detail": "https://www.maoyanzy.com"
+        },
         "mtzy": {
             "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
             "name": "茅台资源",
