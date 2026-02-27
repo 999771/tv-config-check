@@ -51,6 +51,11 @@
             "name": "辣椒资源",
             "detail": "http://lajiaozy.com"
         },
+        "ddzy": {
+            "api": "https://api.ddapi.cc/api.php/provide/vod",
+            "name": "滴滴资源",
+            "detail": "https://didizy.com"
+        },
         "lebo": {
             "api": "https://lbapi9.com/api.php/provide/vod",
             "name": "s播资源",
