@@ -161,6 +161,11 @@
             "name": "幸资源",
             "detail": "https://12xzy.com"
         },
+        "fqzy": {
+            "api": "https://fqzy.me//api.php/provide/vod",
+            "name": "番茄资源",
+            "detail": "https://fqzy.me/"
+        },
         "yyzy": {
             "api": "https://www.yyzywcj.com/api.php/provide/vod",
             "name": "优优资源",

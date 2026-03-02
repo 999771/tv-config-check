@@ -224,6 +224,13 @@
         "isEnabled": true
     },
     {
+        "id": "fqzy",
+        "name": "番茄资源",
+        "url": "https://fqzy.me//api.php/provide/vod",
+        "detailUrl": "https://fqzy.me/",
+        "isEnabled": true
+    },
+    {
         "id": "yyzy",
         "name": "优优资源",
         "url": "https://www.yyzywcj.com/api.php/provide/vod",
