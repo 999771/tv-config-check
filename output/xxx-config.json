@@ -166,11 +166,6 @@
             "name": "番茄资源",
             "detail": "https://fqzy.me/"
         },
-        "yyzy": {
-            "api": "https://www.yyzywcj.com/api.php/provide/vod",
-            "name": "优优资源",
-            "detail": "https://yyzywcj.com"
-        },
         "dnnzy": {
             "api": "https://apidanaizi.com/api.php/provide/vod",
             "name": "大nai子资源",
