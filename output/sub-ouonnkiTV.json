@@ -196,13 +196,6 @@
         "isEnabled": true
     },
     {
-        "id": "subzy",
-        "name": "速播资源",
-        "url": "https://subocaiji.com/api.php/provide/vod",
-        "detailUrl": "https://www.subozy.com",
-        "isEnabled": true
-    },
-    {
         "id": "hyzy",
         "name": "虎牙资源",
         "url": "https://www.huyaapi.com/api.php/provide/vod",
