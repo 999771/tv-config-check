@@ -7,13 +7,6 @@
         "isEnabled": true
     },
     {
-        "id": "lsttzy",
-        "name": "乐视天堂",
-        "url": "https://sbdui.click/api.php/provide/vod",
-        "detailUrl": "https://sbdui.click",
-        "isEnabled": true
-    },
-    {
         "id": "iqiyizy",
         "name": "iqiyi资源",
         "url": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -140,13 +133,6 @@
         "isEnabled": true
     },
     {
-        "id": "wlzy",
-        "name": "卧龙资源",
-        "url": "https://wolongzy.cc/api.php/provide/vod",
-        "detailUrl": "https://wolongzy.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
@@ -193,6 +179,13 @@
         "name": "鸭鸭资源",
         "url": "https://cj.yayazy.net/api.php/provide/vod",
         "detailUrl": "https://yayazy1.com",
+        "isEnabled": true
+    },
+    {
+        "id": "subzy",
+        "name": "速播资源",
+        "url": "https://subocaiji.com/api.php/provide/vod",
+        "detailUrl": "https://www.subozy.com",
         "isEnabled": true
     },
     {

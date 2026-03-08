@@ -151,11 +151,6 @@
             "name": "精品X资源",
             "detail": "https://jingpinx.com"
         },
-        "swzy": {
-            "api": "https://siwazyw.tv/api.php/provide/vod",
-            "name": "sw资源",
-            "detail": "https://siwazyw.tv"
-        },
         "xzy": {
             "api": "https://xzybb1.com/api.php/provide/vod",
             "name": "幸资源",

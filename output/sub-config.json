@@ -6,11 +6,6 @@
             "name": "电影天堂",
             "detail": "https://caiji.dyttzyapi.com"
         },
-        "lsttzy": {
-            "api": "https://sbdui.click/api.php/provide/vod",
-            "name": "乐视天堂",
-            "detail": "https://sbdui.click"
-        },
         "iqiyizy": {
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "name": "iqiyi资源",
@@ -101,11 +96,6 @@
             "name": "光速资源",
             "detail": "https://guangsuzy.com"
         },
-        "wlzy": {
-            "api": "https://wolongzy.cc/api.php/provide/vod",
-            "name": "卧龙资源",
-            "detail": "https://wolongzy.cc"
-        },
         "ikzy": {
             "api": "https://ikunzyapi.com/api.php/provide/vod",
             "name": "ikun资源",
@@ -140,6 +130,11 @@
             "api": "https://cj.yayazy.net/api.php/provide/vod",
             "name": "鸭鸭资源",
             "detail": "https://yayazy1.com"
+        },
+        "subzy": {
+            "api": "https://subocaiji.com/api.php/provide/vod",
+            "name": "速播资源",
+            "detail": "https://www.subozy.com"
         },
         "hyzy": {
             "api": "https://www.huyaapi.com/api.php/provide/vod",
