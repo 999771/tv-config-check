@@ -7,6 +7,13 @@
         "isEnabled": true
     },
     {
+        "id": "lsttzy",
+        "name": "乐视天堂",
+        "url": "https://sbdui.click/api.php/provide/vod",
+        "detailUrl": "https://sbdui.click",
+        "isEnabled": true
+    },
+    {
         "id": "iqiyizy",
         "name": "iqiyi资源",
         "url": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -133,17 +140,17 @@
         "isEnabled": true
     },
     {
+        "id": "wlzy",
+        "name": "卧龙资源",
+        "url": "https://wolongzy.cc/api.php/provide/vod",
+        "detailUrl": "https://wolongzy.cc",
+        "isEnabled": true
+    },
+    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
         "detailUrl": "https://ikunzy.vip",
-        "isEnabled": true
-    },
-    {
-        "id": "wwzy",
-        "name": "旺旺短剧",
-        "url": "https://api.wwzy.tv/api.php/provide/vod",
-        "detailUrl": "https://www.wwzy.tv",
         "isEnabled": true
     },
     {
@@ -221,13 +228,6 @@
         "name": "魔都资源",
         "url": "https://www.mdzyapi.com/api.php/provide/vod",
         "detailUrl": "https://moduzy10.com",
-        "isEnabled": true
-    },
-    {
-        "id": "xhys",
-        "name": "小红影视",
-        "url": "https://www.xiaohys.com/api.php/provide/vod",
-        "detailUrl": "https://www.xiaohys.com",
         "isEnabled": true
     },
     {
