@@ -121,6 +121,11 @@
             "name": "豆瓣资源",
             "detail": "https://doubanziyuan.com"
         },
+        "pbzy": {
+            "api": "https://dh.ha.cn/api.php/provide/vod",
+            "name": "瀑布资源",
+            "detail": "https://www.pbpan.com/"
+        },
         "nnzy": {
             "api": "https://api.niuniuzy.me/api.php/provide/vod",
             "name": "牛牛资源",
