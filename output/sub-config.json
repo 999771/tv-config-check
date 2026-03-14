@@ -91,11 +91,6 @@
             "name": "闪电资源",
             "detail": "https://shandianzy.cc"
         },
-        "ukzy": {
-            "api": "https://api.ukuapi88.com/api.php/provide/vod",
-            "name": "U酷资源",
-            "detail": "https://ukuzy1.com"
-        },
         "gszy": {
             "api": "https://api.guangsuapi.com/api.php/provide/vod",
             "name": "光速资源",
