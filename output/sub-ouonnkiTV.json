@@ -126,6 +126,13 @@
         "isEnabled": true
     },
     {
+        "id": "ukzy",
+        "name": "U酷资源",
+        "url": "https://api.ukuapi88.com/api.php/provide/vod",
+        "detailUrl": "https://ukuzy1.com",
+        "isEnabled": true
+    },
+    {
         "id": "gszy",
         "name": "光速资源",
         "url": "https://api.guangsuapi.com/api.php/provide/vod",
