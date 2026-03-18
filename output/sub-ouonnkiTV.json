@@ -203,13 +203,6 @@
         "isEnabled": true
     },
     {
-        "id": "subzy",
-        "name": "速播资源",
-        "url": "https://subocaiji.com/api.php/provide/vod",
-        "detailUrl": "https://www.subozy.com",
-        "isEnabled": true
-    },
-    {
         "id": "hyzy",
         "name": "虎牙资源",
         "url": "https://www.huyaapi.com/api.php/provide/vod",
@@ -235,13 +228,6 @@
         "name": "暴风资源",
         "url": "https://bfzyapi.com/api.php/provide/vod",
         "detailUrl": "https://bfzy1.tv",
-        "isEnabled": true
-    },
-    {
-        "id": "mdzy",
-        "name": "魔都资源",
-        "url": "https://www.mdzyapi.com/api.php/provide/vod",
-        "detailUrl": "https://moduzy10.com",
         "isEnabled": true
     },
     {

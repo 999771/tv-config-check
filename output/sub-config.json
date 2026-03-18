@@ -146,11 +146,6 @@
             "name": "鸭鸭资源",
             "detail": "https://yayazy1.com"
         },
-        "subzy": {
-            "api": "https://subocaiji.com/api.php/provide/vod",
-            "name": "速播资源",
-            "detail": "https://www.subozy.com"
-        },
         "hyzy": {
             "api": "https://www.huyaapi.com/api.php/provide/vod",
             "name": "虎牙资源",
@@ -170,11 +165,6 @@
             "api": "https://bfzyapi.com/api.php/provide/vod",
             "name": "暴风资源",
             "detail": "https://bfzy1.tv"
-        },
-        "mdzy": {
-            "api": "https://www.mdzyapi.com/api.php/provide/vod",
-            "name": "魔都资源",
-            "detail": "https://moduzy10.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
