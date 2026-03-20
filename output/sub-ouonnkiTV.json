@@ -238,6 +238,13 @@
         "isEnabled": true
     },
     {
+        "id": "mdzy",
+        "name": "魔都资源",
+        "url": "https://www.mdzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://moduzy10.com",
+        "isEnabled": true
+    },
+    {
         "id": "hhzy",
         "name": "豪华资源",
         "url": "https://hhzyapi.com/api.php/provide/vod",

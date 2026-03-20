@@ -171,6 +171,11 @@
             "name": "暴风资源",
             "detail": "https://bfzy1.tv"
         },
+        "mdzy": {
+            "api": "https://www.mdzyapi.com/api.php/provide/vod",
+            "name": "魔都资源",
+            "detail": "https://moduzy10.com"
+        },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "name": "豪华资源",
