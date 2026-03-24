@@ -1,5 +1,19 @@
 [
     {
+        "id": "dyttzy",
+        "name": "电影天堂",
+        "url": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://caiji.dyttzyapi.com",
+        "isEnabled": true
+    },
+    {
+        "id": "lsttzy",
+        "name": "乐视天堂",
+        "url": "https://sbdui.click/api.php/provide/vod",
+        "detailUrl": "https://sbdui.click",
+        "isEnabled": true
+    },
+    {
         "id": "iqiyizy",
         "name": "iqiyi资源",
         "url": "https://iqiyizyapi.com/api.php/provide/vod",
@@ -28,6 +42,13 @@
         "isEnabled": true
     },
     {
+        "id": "ruyi",
+        "name": "如意资源",
+        "url": "https://cj.rycjapi.com/api.php/provide/vod",
+        "detailUrl": "https://www.ryzyw.com",
+        "isEnabled": true
+    },
+    {
         "id": "plzy",
         "name": "飘零资源",
         "url": "https://p2100.net/api.php/provide/vod",
@@ -46,6 +67,20 @@
         "name": "最大资源",
         "url": "https://api.zuidapi.com/api.php/provide/vod",
         "detailUrl": "https://zuidazy.me",
+        "isEnabled": true
+    },
+    {
+        "id": "yzzy",
+        "name": "优质资源",
+        "url": "https://api.yzzy-api.com/inc/apijson.php",
+        "detailUrl": "https://1080zyk1.com",
+        "isEnabled": true
+    },
+    {
+        "id": "ffzy",
+        "name": "非凡资源",
+        "url": "http://api.ffzyapi.com/api.php/provide/vod",
+        "detailUrl": "http://ffzy5.tv",
         "isEnabled": true
     },
     {

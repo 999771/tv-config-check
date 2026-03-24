@@ -1,6 +1,16 @@
 {
     "cache_time": 7200,
     "api_site": {
+        "dyttzy": {
+            "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+            "name": "电影天堂",
+            "detail": "https://caiji.dyttzyapi.com"
+        },
+        "lsttzy": {
+            "api": "https://sbdui.click/api.php/provide/vod",
+            "name": "乐视天堂",
+            "detail": "https://sbdui.click"
+        },
         "iqiyizy": {
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "name": "iqiyi资源",
@@ -21,6 +31,11 @@
             "name": "天涯资源",
             "detail": "https://tyyszy.com"
         },
+        "ruyi": {
+            "api": "https://cj.rycjapi.com/api.php/provide/vod",
+            "name": "如意资源",
+            "detail": "https://www.ryzyw.com"
+        },
         "plzy": {
             "api": "https://p2100.net/api.php/provide/vod",
             "name": "飘零资源",
@@ -35,6 +50,16 @@
             "api": "https://api.zuidapi.com/api.php/provide/vod",
             "name": "最大资源",
             "detail": "https://zuidazy.me"
+        },
+        "yzzy": {
+            "api": "https://api.yzzy-api.com/inc/apijson.php",
+            "name": "优质资源",
+            "detail": "https://1080zyk1.com"
+        },
+        "ffzy": {
+            "api": "http://api.ffzyapi.com/api.php/provide/vod",
+            "name": "非凡资源",
+            "detail": "http://ffzy5.tv"
         },
         "xlzy": {
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
