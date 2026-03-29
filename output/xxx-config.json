@@ -190,6 +190,11 @@
             "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
             "name": "香蕉资源",
             "detail": "https://www.xiangjiaozyw.com"
+        },
+        "ddou": {
+            "api": "https://api.douapi.cc/api.php/provide/vod",
+            "name": "豆豆资源",
+            "detail": "https://doudouzy.com"
         }
     }
 }

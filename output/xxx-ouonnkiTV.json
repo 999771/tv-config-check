@@ -264,5 +264,12 @@
         "url": "https://www.xiangjiaozyw.com/api.php/provide/vod",
         "detailUrl": "https://www.xiangjiaozyw.com",
         "isEnabled": true
+    },
+    {
+        "id": "ddou",
+        "name": "豆豆资源",
+        "url": "https://api.douapi.cc/api.php/provide/vod",
+        "detailUrl": "https://doudouzy.com",
+        "isEnabled": true
     }
 ]
