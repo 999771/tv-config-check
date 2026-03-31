@@ -126,11 +126,6 @@
             "name": "细胞资源",
             "detail": "https://xxibaozyw.com"
         },
-        "xjizy": {
-            "api": "https://api.xiaojizy.live/provide/vod",
-            "name": "小鸡资源",
-            "detail": "https://xiaojizy.live"
-        },
         "ckbh": {
             "api": "https://ckbh1.xyz/api.php/provide/vod",
             "name": "CK百货资源",
