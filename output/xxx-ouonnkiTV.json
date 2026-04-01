@@ -175,6 +175,13 @@
         "isEnabled": true
     },
     {
+        "id": "xjizy",
+        "name": "小鸡资源",
+        "url": "https://api.xiaojizy.live/provide/vod",
+        "detailUrl": "https://xiaojizy.live",
+        "isEnabled": true
+    },
+    {
         "id": "ckbh",
         "name": "CK百货资源",
         "url": "https://ckbh1.xyz/api.php/provide/vod",
@@ -214,13 +221,6 @@
         "name": "番茄资源",
         "url": "https://fqzy.me//api.php/provide/vod",
         "detailUrl": "https://fqzy.me/",
-        "isEnabled": true
-    },
-    {
-        "id": "yyzy",
-        "name": "优优资源",
-        "url": "https://www.yyzywcj.com/api.php/provide/vod",
-        "detailUrl": "https://yyzywcj.com",
         "isEnabled": true
     },
     {
