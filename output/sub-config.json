@@ -116,11 +116,6 @@
             "name": "旺旺短剧",
             "detail": "https://www.wwzy.tv"
         },
-        "pbzy": {
-            "api": "https://dh.ha.cn/api.php/provide/vod",
-            "name": "瀑布资源",
-            "detail": "https://www.pbpan.com/"
-        },
         "nnzy": {
             "api": "https://api.niuniuzy.me/api.php/provide/vod",
             "name": "牛牛资源",
@@ -165,6 +160,11 @@
             "api": "https://bfzyapi.com/api.php/provide/vod",
             "name": "暴风资源",
             "detail": "https://bfzy1.tv"
+        },
+        "mdzy": {
+            "api": "https://www.mdzyapi.com/api.php/provide/vod",
+            "name": "魔都资源",
+            "detail": "https://moduzy10.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
