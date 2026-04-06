@@ -21,6 +21,13 @@
         "isEnabled": true
     },
     {
+        "id": "askzy",
+        "name": "奥斯卡",
+        "url": "https://aosikazy.com/api.php/provide/vod",
+        "detailUrl": "https://aosikazy.com",
+        "isEnabled": true
+    },
+    {
         "id": "thdao",
         "name": "桃花岛",
         "url": "https://www.sextaohua.com/api.php/provide/vod",
