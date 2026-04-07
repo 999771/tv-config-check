@@ -42,13 +42,6 @@
         "isEnabled": true
     },
     {
-        "id": "cbzy",
-        "name": "艹B资源",
-        "url": "https://www.caobizy.com/api.php/provide/vod",
-        "detailUrl": "https://www.caobizy.com",
-        "isEnabled": true
-    },
-    {
         "id": "slzy",
         "name": "森林资源",
         "url": "https://slapibf.com/api.php/provide/vod",
