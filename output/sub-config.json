@@ -61,6 +61,11 @@
             "name": "非凡资源",
             "detail": "http://ffzy5.tv"
         },
+        "tpzy": {
+            "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+            "name": "淘片资源",
+            "detail": "https://www.taopianzy1.com/index.html"
+        },
         "xlzy": {
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
             "name": "新浪资源",

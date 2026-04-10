@@ -84,6 +84,13 @@
         "isEnabled": true
     },
     {
+        "id": "tpzy",
+        "name": "淘片资源",
+        "url": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+        "detailUrl": "https://www.taopianzy1.com/index.html",
+        "isEnabled": true
+    },
+    {
         "id": "xlzy",
         "name": "新浪资源",
         "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
