@@ -21,13 +21,6 @@
         "isEnabled": true
     },
     {
-        "id": "askzy",
-        "name": "奥斯卡",
-        "url": "https://aosikazy.com/api.php/provide/vod",
-        "detailUrl": "https://aosikazy.com",
-        "isEnabled": true
-    },
-    {
         "id": "thdao",
         "name": "桃花岛",
         "url": "https://www.sextaohua.com/api.php/provide/vod",
@@ -200,6 +193,13 @@
         "name": "精品X资源",
         "url": "https://www.jingpinx.com/api.php/provide/vod",
         "detailUrl": "https://jingpinx.com",
+        "isEnabled": true
+    },
+    {
+        "id": "swzy",
+        "name": "sw资源",
+        "url": "https://siwazyw.tv/api.php/provide/vod",
+        "detailUrl": "https://siwazyw.tv",
         "isEnabled": true
     },
     {
