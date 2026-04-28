@@ -16,6 +16,11 @@
             "name": "桃花资源",
             "detail": "https://thzy1.me"
         },
+        "askzy": {
+            "api": "https://aosikazy.com/api.php/provide/vod",
+            "name": "奥斯卡",
+            "detail": "https://aosikazy.com"
+        },
         "thdao": {
             "api": "https://www.sextaohua.com/api.php/provide/vod",
             "name": "桃花岛",
