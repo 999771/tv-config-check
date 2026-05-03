@@ -61,6 +61,11 @@
             "name": "s猫资源",
             "detail": "https://semaozy5.com"
         },
+        "syzy": {
+            "api": "https://shayuzy5.com/api.php/provide/vod",
+            "name": "鲨鱼资源",
+            "detail": "https://shayuzy5.com"
+        },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
             "name": "JKUN资源",
@@ -160,6 +165,11 @@
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "91麻豆",
             "detail": "https://heiliaozy.com"
+        },
+        "uezy": {
+            "api": "https://a.uezy.pw/api.php/provide/vod",
+            "name": "优异资源",
+            "detail": "https://a.uezy.pw"
         },
         "vnzy": {
             "api": "https://vnzyz.com/api.php/provide/vod",

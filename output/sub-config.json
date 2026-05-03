@@ -101,11 +101,6 @@
             "name": "光速资源",
             "detail": "https://guangsuzy.com"
         },
-        "wlzy": {
-            "api": "https://wolongzy.cc/api.php/provide/vod",
-            "name": "卧龙资源",
-            "detail": "https://wolongzy.cc"
-        },
         "ikzy": {
             "api": "https://ikunzyapi.com/api.php/provide/vod",
             "name": "ikun资源",

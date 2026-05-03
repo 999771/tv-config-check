@@ -140,13 +140,6 @@
         "isEnabled": true
     },
     {
-        "id": "wlzy",
-        "name": "卧龙资源",
-        "url": "https://wolongzy.cc/api.php/provide/vod",
-        "detailUrl": "https://wolongzy.cc",
-        "isEnabled": true
-    },
-    {
         "id": "ikzy",
         "name": "ikun资源",
         "url": "https://ikunzyapi.com/api.php/provide/vod",
