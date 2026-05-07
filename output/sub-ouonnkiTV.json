@@ -21,13 +21,6 @@
         "isEnabled": true
     },
     {
-        "id": "mtzy",
-        "name": "茅台资源",
-        "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
-        "detailUrl": "https://mtzy0.com",
-        "isEnabled": true
-    },
-    {
         "id": "tyzy",
         "name": "天涯资源",
         "url": "https://tyyszyapi.com/api.php/provide/vod",
@@ -105,13 +98,6 @@
         "isEnabled": true
     },
     {
-        "id": "hnzy",
-        "name": "红牛资源",
-        "url": "https://www.hongniuzy2.com/api.php/provide/vod",
-        "detailUrl": "https://hongniuziyuan.com",
-        "isEnabled": true
-    },
-    {
         "id": "jszy",
         "name": "极速资源",
         "url": "https://jszyapi.com/api.php/provide/vod",
@@ -186,13 +172,6 @@
         "name": "速播资源",
         "url": "https://subocaiji.com/api.php/provide/vod",
         "detailUrl": "https://www.subozy.com",
-        "isEnabled": true
-    },
-    {
-        "id": "hyzy",
-        "name": "虎牙资源",
-        "url": "https://www.huyaapi.com/api.php/provide/vod",
-        "detailUrl": "https://huyaziyuan.com",
         "isEnabled": true
     },
     {

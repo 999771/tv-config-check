@@ -16,11 +16,6 @@
             "name": "猫眼资源",
             "detail": "https://www.maoyanzy.com"
         },
-        "mtzy": {
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
-            "name": "茅台资源",
-            "detail": "https://mtzy0.com"
-        },
         "tyzy": {
             "api": "https://tyyszyapi.com/api.php/provide/vod",
             "name": "天涯资源",
@@ -76,11 +71,6 @@
             "name": "无尽资源",
             "detail": "https://wujinzy.cc"
         },
-        "hnzy": {
-            "api": "https://www.hongniuzy2.com/api.php/provide/vod",
-            "name": "红牛资源",
-            "detail": "https://hongniuziyuan.com"
-        },
         "jszy": {
             "api": "https://jszyapi.com/api.php/provide/vod",
             "name": "极速资源",
@@ -135,11 +125,6 @@
             "api": "https://subocaiji.com/api.php/provide/vod",
             "name": "速播资源",
             "detail": "https://www.subozy.com"
-        },
-        "hyzy": {
-            "api": "https://www.huyaapi.com/api.php/provide/vod",
-            "name": "虎牙资源",
-            "detail": "https://huyaziyuan.com"
         },
         "yhzy": {
             "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
