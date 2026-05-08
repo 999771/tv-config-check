@@ -105,13 +105,6 @@
         "isEnabled": true
     },
     {
-        "id": "ckzy",
-        "name": "CK资源",
-        "url": "https://ckzy.me/api.php/provide/vod",
-        "detailUrl": "https://ckzy1.com",
-        "isEnabled": true
-    },
-    {
         "id": "msnzy",
         "name": "美少女资源",
         "url": "https://www.msnii.com/api/xml.php",
