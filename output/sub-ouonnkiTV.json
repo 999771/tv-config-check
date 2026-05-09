@@ -189,6 +189,13 @@
         "isEnabled": true
     },
     {
+        "id": "hyzy",
+        "name": "虎牙资源",
+        "url": "https://www.huyaapi.com/api.php/provide/vod",
+        "detailUrl": "https://huyaziyuan.com",
+        "isEnabled": true
+    },
+    {
         "id": "yhzy",
         "name": "樱花资源",
         "url": "https://m3u8.apiyhzy.com/api.php/seacms/vod",

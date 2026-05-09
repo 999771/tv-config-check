@@ -136,6 +136,11 @@
             "name": "速播资源",
             "detail": "https://www.subozy.com"
         },
+        "hyzy": {
+            "api": "https://www.huyaapi.com/api.php/provide/vod",
+            "name": "虎牙资源",
+            "detail": "https://huyaziyuan.com"
+        },
         "yhzy": {
             "api": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
             "name": "樱花资源",
