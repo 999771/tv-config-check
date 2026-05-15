@@ -16,11 +16,6 @@
             "name": "猫眼资源",
             "detail": "https://www.maoyanzy.com"
         },
-        "mtzy": {
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
-            "name": "茅台资源",
-            "detail": "https://mtzy0.com"
-        },
         "tyzy": {
             "api": "https://tyyszyapi.com/api.php/provide/vod",
             "name": "天涯资源",
@@ -160,6 +155,11 @@
             "api": "https://www.mdzyapi.com/api.php/provide/vod",
             "name": "魔都资源",
             "detail": "https://moduzy10.com"
+        },
+        "xhys": {
+            "api": "https://www.xiaohys.com/api.php/provide/vod",
+            "name": "小红影视",
+            "detail": "https://www.xiaohys.com"
         },
         "hhzy": {
             "api": "https://hhzyapi.com/api.php/provide/vod",
