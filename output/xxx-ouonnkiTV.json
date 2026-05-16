@@ -203,13 +203,6 @@
         "isEnabled": true
     },
     {
-        "id": "swzy",
-        "name": "sw资源",
-        "url": "https://siwazyw.tv/api.php/provide/vod",
-        "detailUrl": "https://siwazyw.tv",
-        "isEnabled": true
-    },
-    {
         "id": "fqzy",
         "name": "番茄资源",
         "url": "https://fqzy.me//api.php/provide/vod",
