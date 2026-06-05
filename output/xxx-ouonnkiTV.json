@@ -161,6 +161,13 @@
         "isEnabled": true
     },
     {
+        "id": "xbzy",
+        "name": "细胞资源",
+        "url": "https://www.xxibaozyw.com/api.php/provide/vod",
+        "detailUrl": "https://xxibaozyw.com",
+        "isEnabled": true
+    },
+    {
         "id": "xjizy",
         "name": "小鸡资源",
         "url": "https://api.xiaojizy.live/provide/vod",
