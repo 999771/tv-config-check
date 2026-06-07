@@ -136,6 +136,11 @@
             "name": "杏吧资源",
             "detail": "https://www.sex8zy.com"
         },
+        "sazy": {
+            "api": "https://api.souavzy.vip/api.php/provide/vod",
+            "name": "搜v资源",
+            "detail": "https://souavzy2.com"
+        },
         "hsck": {
             "api": "https://hsckzy888.com/api.php/provide/vod",
             "name": "hs仓库资源",

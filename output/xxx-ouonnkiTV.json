@@ -189,6 +189,13 @@
         "isEnabled": true
     },
     {
+        "id": "sazy",
+        "name": "搜v资源",
+        "url": "https://api.souavzy.vip/api.php/provide/vod",
+        "detailUrl": "https://souavzy2.com",
+        "isEnabled": true
+    },
+    {
         "id": "hsck",
         "name": "hs仓库资源",
         "url": "https://hsckzy888.com/api.php/provide/vod",
