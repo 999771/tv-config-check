@@ -36,6 +36,11 @@
             "name": "森林资源",
             "detail": "https://senlinzy.com"
         },
+        "nxx": {
+            "api": "https://naixxzy.com/api.php/provide/vod",
+            "name": "香香资源",
+            "detail": "https://naixxzy1.com"
+        },
         "ljzy": {
             "api": "https://apilj.com/api.php/provide/vod",
             "name": "辣椒资源",
