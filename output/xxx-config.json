@@ -1,11 +1,6 @@
 {
     "cache_time": 7200,
     "api_site": {
-        "bwzy": {
-            "api": "https://api.bwzyz.com/api.php/provide/vod",
-            "name": "百万资源",
-            "detail": "https://bwzy.tv"
-        },
         "115zy": {
             "api": "https://155api.com/api.php/provide/vod",
             "name": "155资源",
