@@ -11,6 +11,21 @@
             "name": "98资源",
             "detail": "https://98zy.me"
         },
+        "iqiyizy": {
+            "api": "https://iqiyizyapi.com/api.php/provide/vod",
+            "name": "iqiyi资源",
+            "detail": "https://iqiyizy.com"
+        },
+        "myzy": {
+            "api": "https://api.maoyanapi.top/api.php/provide/vod",
+            "name": "猫眼资源",
+            "detail": "https://www.maoyanzy.com"
+        },
+        "mtzy": {
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+            "name": "茅台资源",
+            "detail": "https://mtzy0.com"
+        },
         "tyzy": {
             "api": "https://tyyszyapi.com/api.php/provide/vod",
             "name": "天涯资源",

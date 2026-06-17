@@ -14,6 +14,27 @@
         "isEnabled": true
     },
     {
+        "id": "iqiyizy",
+        "name": "iqiyi资源",
+        "url": "https://iqiyizyapi.com/api.php/provide/vod",
+        "detailUrl": "https://iqiyizy.com",
+        "isEnabled": true
+    },
+    {
+        "id": "myzy",
+        "name": "猫眼资源",
+        "url": "https://api.maoyanapi.top/api.php/provide/vod",
+        "detailUrl": "https://www.maoyanzy.com",
+        "isEnabled": true
+    },
+    {
+        "id": "mtzy",
+        "name": "茅台资源",
+        "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+        "detailUrl": "https://mtzy0.com",
+        "isEnabled": true
+    },
+    {
         "id": "tyzy",
         "name": "天涯资源",
         "url": "https://tyyszyapi.com/api.php/provide/vod",
