@@ -11,6 +11,11 @@
             "name": "98资源",
             "detail": "https://98zy.me"
         },
+        "wsyzy": {
+            "api": "https://api.wsyzy.net/api.php/provide/vod",
+            "name": "无水印资源",
+            "detail": "https://wsyzy.cc"
+        },
         "lsttzy": {
             "api": "https://sbdui.click/api.php/provide/vod",
             "name": "乐视天堂",
