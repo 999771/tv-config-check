@@ -11,6 +11,11 @@
             "name": "98资源",
             "detail": "https://98zy.me"
         },
+        "xgzy": {
+            "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+            "name": "西瓜资源",
+            "detail": "https://xgzy.tv"
+        },
         "wsyzy": {
             "api": "https://api.wsyzy.net/api.php/provide/vod",
             "name": "无水印资源",
