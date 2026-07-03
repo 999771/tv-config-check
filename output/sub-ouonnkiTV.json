@@ -14,6 +14,13 @@
         "isEnabled": true
     },
     {
+        "id": "xgzy",
+        "name": "西瓜资源",
+        "url": "https://caiji.xgzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://xgzy.tv",
+        "isEnabled": true
+    },
+    {
         "id": "wsyzy",
         "name": "无水印资源",
         "url": "https://api.wsyzy.net/api.php/provide/vod",
@@ -91,6 +98,13 @@
         "isEnabled": true
     },
     {
+        "id": "tpzy",
+        "name": "淘片资源",
+        "url": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+        "detailUrl": "https://www.taopianzy1.com/index.html",
+        "isEnabled": true
+    },
+    {
         "id": "xlzy",
         "name": "新浪资源",
         "url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
@@ -116,13 +130,6 @@
         "name": "红牛资源",
         "url": "https://www.hongniuzy2.com/api.php/provide/vod",
         "detailUrl": "https://hongniuziyuan.com",
-        "isEnabled": true
-    },
-    {
-        "id": "jszy",
-        "name": "极速资源",
-        "url": "https://jszyapi.com/api.php/provide/vod",
-        "detailUrl": "https://www.jisuzy.com",
         "isEnabled": true
     },
     {

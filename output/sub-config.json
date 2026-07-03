@@ -11,6 +11,11 @@
             "name": "98资源",
             "detail": "https://98zy.me"
         },
+        "xgzy": {
+            "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+            "name": "西瓜资源",
+            "detail": "https://xgzy.tv"
+        },
         "wsyzy": {
             "api": "https://api.wsyzy.net/api.php/provide/vod",
             "name": "无水印资源",
@@ -66,6 +71,11 @@
             "name": "非凡资源",
             "detail": "http://ffzy5.tv"
         },
+        "tpzy": {
+            "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
+            "name": "淘片资源",
+            "detail": "https://www.taopianzy1.com/index.html"
+        },
         "xlzy": {
             "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
             "name": "新浪资源",
@@ -85,11 +95,6 @@
             "api": "https://www.hongniuzy2.com/api.php/provide/vod",
             "name": "红牛资源",
             "detail": "https://hongniuziyuan.com"
-        },
-        "jszy": {
-            "api": "https://jszyapi.com/api.php/provide/vod",
-            "name": "极速资源",
-            "detail": "https://www.jisuzy.com"
         },
         "sdzy": {
             "api": "https://xsd.sdzyapi.com/api.php/provide/vod",
