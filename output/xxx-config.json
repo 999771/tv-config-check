@@ -161,11 +161,6 @@
             "name": "91麻豆",
             "detail": "https://heiliaozy.com"
         },
-        "uezy": {
-            "api": "https://a.uezy.pw/api.php/provide/vod",
-            "name": "优异资源",
-            "detail": "https://a.uezy.pw"
-        },
         "vnzy": {
             "api": "https://vnzyz.com/api.php/provide/vod",
             "name": "越南资源",
