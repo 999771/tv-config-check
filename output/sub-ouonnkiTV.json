@@ -42,6 +42,13 @@
         "isEnabled": true
     },
     {
+        "id": "mtzy",
+        "name": "茅台资源",
+        "url": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
+        "detailUrl": "https://mtzy0.com",
+        "isEnabled": true
+    },
+    {
         "id": "tyzy",
         "name": "天涯资源",
         "url": "https://tyyszyapi.com/api.php/provide/vod",
@@ -53,13 +60,6 @@
         "name": "如意资源",
         "url": "https://cj.rycjapi.com/api.php/provide/vod",
         "detailUrl": "https://www.ryzyw.com",
-        "isEnabled": true
-    },
-    {
-        "id": "plzy",
-        "name": "飘零资源",
-        "url": "https://p2100.net/api.php/provide/vod",
-        "detailUrl": "https://p2100.net",
         "isEnabled": true
     },
     {
