@@ -7,13 +7,6 @@
         "isEnabled": true
     },
     {
-        "id": "mjzy",
-        "name": "母鸡资源",
-        "url": "https://mujiziyuan00.com/api.php/provide/vod",
-        "detailUrl": "https://mujiziyuan01.com",
-        "isEnabled": true
-    },
-    {
         "id": "98zy",
         "name": "98资源",
         "url": "https://98zy.vip/api.php/provide/vod",
