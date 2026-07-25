@@ -217,13 +217,6 @@
         "isEnabled": true
     },
     {
-        "id": "yhzy",
-        "name": "樱花资源",
-        "url": "https://m3u8.apiyhzy.com/api.php/seacms/vod",
-        "detailUrl": "https://yhzy.men",
-        "isEnabled": true
-    },
-    {
         "id": "360zy",
         "name": "360资源",
         "url": "https://360zy.com/api.php/provide/vod",
