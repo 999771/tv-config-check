@@ -1,6 +1,11 @@
 {
     "cache_time": 7200,
     "api_site": {
+        "mjzy": {
+            "api": "https://mujiziyuan00.com/api.php/provide/vod",
+            "name": "母鸡资源",
+            "detail": "https://mujiziyuan01.com"
+        },
         "98zy": {
             "api": "https://98zy.vip/api.php/provide/vod",
             "name": "98资源",
