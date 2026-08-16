@@ -21,13 +21,6 @@
         "isEnabled": true
     },
     {
-        "id": "thdao",
-        "name": "桃花岛",
-        "url": "https://www.sextaohua.com/api.php/provide/vod",
-        "detailUrl": "https://www.sextaohua.com",
-        "isEnabled": true
-    },
-    {
         "id": "dadi",
         "name": "大地资源",
         "url": "https://dadiapi.com/api.php/provide/vod",
