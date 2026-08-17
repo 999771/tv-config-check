@@ -1,5 +1,12 @@
 [
     {
+        "id": "dyttzy",
+        "name": "电影天堂",
+        "url": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://caiji.dyttzyapi.com",
+        "isEnabled": true
+    },
+    {
         "id": "mjzy",
         "name": "母鸡资源",
         "url": "https://mujiziyuan00.com/api.php/provide/vod",
@@ -11,6 +18,13 @@
         "name": "98资源",
         "url": "https://98zy.vip/api.php/provide/vod",
         "detailUrl": "https://98zy.me",
+        "isEnabled": true
+    },
+    {
+        "id": "xgzy",
+        "name": "西瓜资源",
+        "url": "https://caiji.xgzyapi.com/api.php/provide/vod",
+        "detailUrl": "https://xgzy.tv",
         "isEnabled": true
     },
     {

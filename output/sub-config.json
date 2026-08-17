@@ -1,6 +1,11 @@
 {
     "cache_time": 7200,
     "api_site": {
+        "dyttzy": {
+            "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+            "name": "电影天堂",
+            "detail": "https://caiji.dyttzyapi.com"
+        },
         "mjzy": {
             "api": "https://mujiziyuan00.com/api.php/provide/vod",
             "name": "母鸡资源",
@@ -10,6 +15,11 @@
             "api": "https://98zy.vip/api.php/provide/vod",
             "name": "98资源",
             "detail": "https://98zy.me"
+        },
+        "xgzy": {
+            "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
+            "name": "西瓜资源",
+            "detail": "https://xgzy.tv"
         },
         "wsyzy": {
             "api": "https://api.wsyzy.net/api.php/provide/vod",
