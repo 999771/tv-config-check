@@ -63,6 +63,13 @@
         "isEnabled": true
     },
     {
+        "id": "ruyi",
+        "name": "如意资源",
+        "url": "https://cj.rycjapi.com/api.php/provide/vod",
+        "detailUrl": "https://www.ryzyw.com",
+        "isEnabled": true
+    },
+    {
         "id": "lzzy",
         "name": "量子资源",
         "url": "https://cj.lziapi.com/api.php/provide/vod",
@@ -74,6 +81,20 @@
         "name": "最大资源",
         "url": "https://api.zuidapi.com/api.php/provide/vod",
         "detailUrl": "https://zuidazy.me",
+        "isEnabled": true
+    },
+    {
+        "id": "yzzy",
+        "name": "优质资源",
+        "url": "https://api.yzzy-api.com/inc/apijson.php",
+        "detailUrl": "https://1080zyk1.com",
+        "isEnabled": true
+    },
+    {
+        "id": "ffzy",
+        "name": "非凡资源",
+        "url": "http://api.ffzyapi.com/api.php/provide/vod",
+        "detailUrl": "http://ffzy5.tv",
         "isEnabled": true
     },
     {

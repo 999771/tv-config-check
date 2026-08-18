@@ -46,6 +46,11 @@
             "name": "天涯资源",
             "detail": "https://tyyszy.com"
         },
+        "ruyi": {
+            "api": "https://cj.rycjapi.com/api.php/provide/vod",
+            "name": "如意资源",
+            "detail": "https://www.ryzyw.com"
+        },
         "lzzy": {
             "api": "https://cj.lziapi.com/api.php/provide/vod",
             "name": "量子资源",
@@ -55,6 +60,16 @@
             "api": "https://api.zuidapi.com/api.php/provide/vod",
             "name": "最大资源",
             "detail": "https://zuidazy.me"
+        },
+        "yzzy": {
+            "api": "https://api.yzzy-api.com/inc/apijson.php",
+            "name": "优质资源",
+            "detail": "https://1080zyk1.com"
+        },
+        "ffzy": {
+            "api": "http://api.ffzyapi.com/api.php/provide/vod",
+            "name": "非凡资源",
+            "detail": "http://ffzy5.tv"
         },
         "tpzy": {
             "api": "https://taopianapi.com/cjapi/mc10/vod/json.html",
