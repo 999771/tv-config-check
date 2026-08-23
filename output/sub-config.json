@@ -11,11 +11,6 @@
             "name": "母鸡资源",
             "detail": "https://mujiziyuan01.com"
         },
-        "98zy": {
-            "api": "https://98zy.vip/api.php/provide/vod",
-            "name": "98资源",
-            "detail": "https://98zy.me"
-        },
         "xgzy": {
             "api": "https://caiji.xgzyapi.com/api.php/provide/vod",
             "name": "西瓜资源",

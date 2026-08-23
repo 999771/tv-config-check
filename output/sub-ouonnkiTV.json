@@ -14,13 +14,6 @@
         "isEnabled": true
     },
     {
-        "id": "98zy",
-        "name": "98资源",
-        "url": "https://98zy.vip/api.php/provide/vod",
-        "detailUrl": "https://98zy.me",
-        "isEnabled": true
-    },
-    {
         "id": "xgzy",
         "name": "西瓜资源",
         "url": "https://caiji.xgzyapi.com/api.php/provide/vod",
