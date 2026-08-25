@@ -28,13 +28,6 @@
         "isEnabled": true
     },
     {
-        "id": "iqiyizy",
-        "name": "iqiyi资源",
-        "url": "https://iqiyizyapi.com/api.php/provide/vod",
-        "detailUrl": "https://iqiyizy.com",
-        "isEnabled": true
-    },
-    {
         "id": "myzy",
         "name": "猫眼资源",
         "url": "https://api.maoyanapi.top/api.php/provide/vod",
@@ -151,13 +144,6 @@
         "name": "光速资源",
         "url": "https://api.guangsuapi.com/api.php/provide/vod",
         "detailUrl": "https://guangsuzy.com",
-        "isEnabled": true
-    },
-    {
-        "id": "ikzy",
-        "name": "ikun资源",
-        "url": "https://ikunzyapi.com/api.php/provide/vod",
-        "detailUrl": "https://ikunzy.vip",
         "isEnabled": true
     },
     {
