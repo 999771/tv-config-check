@@ -61,11 +61,6 @@
             "name": "JKUN资源",
             "detail": "https://jkunzy.com"
         },
-        "yutu": {
-            "api": "https://apiyutu.com/api.php/provide/vod",
-            "name": "玉兔资源",
-            "detail": "https://yutuzy.com"
-        },
         "ckzy": {
             "api": "https://ckzy.me/api.php/provide/vod",
             "name": "CK资源",
@@ -100,11 +95,6 @@
             "api": "http://fhapi9.com/api.php/provide/vod",
             "name": "番号资源",
             "detail": "http://fhzy10.com"
-        },
-        "lspzy": {
-            "api": "https://apilsbzy1.com/api.php/provide/vod",
-            "name": "lsp资源",
-            "detail": "https://laosebizy.com"
         },
         "xbzy": {
             "api": "https://www.xxibaozyw.com/api.php/provide/vod",
@@ -155,6 +145,11 @@
             "api": "https://heiliaozyapi.com/api.php/provide/vod",
             "name": "91麻豆",
             "detail": "https://heiliaozy.com"
+        },
+        "vnzy": {
+            "api": "https://vnzyz.com/api.php/provide/vod",
+            "name": "越南资源",
+            "detail": "https://vnzyz.com"
         },
         "m766": {
             "api": "https://m766.com/api.php/provide/vod",
