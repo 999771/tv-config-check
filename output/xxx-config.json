@@ -16,6 +16,11 @@
             "name": "奥斯卡",
             "detail": "https://aosikazy.com"
         },
+        "thdao": {
+            "api": "https://www.sextaohua.com/api.php/provide/vod",
+            "name": "桃花岛",
+            "detail": "https://www.sextaohua.com"
+        },
         "dadi": {
             "api": "https://dadiapi.com/api.php/provide/vod",
             "name": "大地资源",
@@ -50,11 +55,6 @@
             "api": "https://caiji.semaozy.net/inc/api.php",
             "name": "s猫资源",
             "detail": "https://semaozy5.com"
-        },
-        "syzy": {
-            "api": "https://shayuzy5.com/api.php/provide/vod",
-            "name": "鲨鱼资源",
-            "detail": "https://shayuzy5.com"
         },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
