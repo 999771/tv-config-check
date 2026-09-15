@@ -31,11 +31,6 @@
             "name": "森林资源",
             "detail": "https://senlinzy.com"
         },
-        "nxx": {
-            "api": "https://naixxzy.com/api.php/provide/vod",
-            "name": "香香资源",
-            "detail": "https://naixxzy1.com"
-        },
         "ljzy": {
             "api": "https://apilj.com/api.php/provide/vod",
             "name": "辣椒资源",
@@ -106,6 +101,11 @@
             "name": "lsp资源",
             "detail": "https://laosebizy.com"
         },
+        "xbzy": {
+            "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+            "name": "细胞资源",
+            "detail": "https://xxibaozyw.com"
+        },
         "xjizy": {
             "api": "https://api.xiaojizy.live/provide/vod",
             "name": "小鸡资源",
@@ -160,6 +160,11 @@
             "api": "https://m766.com/api.php/provide/vod",
             "name": "黄道长",
             "detail": "https://m766.com"
+        },
+        "xjzy": {
+            "api": "https://www.xiangjiaozyw.com/api.php/provide/vod",
+            "name": "香蕉资源",
+            "detail": "https://www.xiangjiaozyw.com"
         },
         "ddou": {
             "api": "https://api.douapi.cc/api.php/provide/vod",
