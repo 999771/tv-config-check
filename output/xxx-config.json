@@ -31,6 +31,11 @@
             "name": "森林资源",
             "detail": "https://senlinzy.com"
         },
+        "nxx": {
+            "api": "https://naixxzy.com/api.php/provide/vod",
+            "name": "香香资源",
+            "detail": "https://naixxzy1.com"
+        },
         "ljzy": {
             "api": "https://apilj.com/api.php/provide/vod",
             "name": "辣椒资源",
@@ -50,6 +55,11 @@
             "api": "https://caiji.semaozy.net/inc/api.php",
             "name": "s猫资源",
             "detail": "https://semaozy5.com"
+        },
+        "syzy": {
+            "api": "https://shayuzy5.com/api.php/provide/vod",
+            "name": "鲨鱼资源",
+            "detail": "https://shayuzy5.com"
         },
         "jkun": {
             "api": "https://jkunzyapi.com/api.php/provide/vod",
