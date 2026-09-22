@@ -16,11 +16,6 @@
             "name": "西瓜资源",
             "detail": "https://xgzy.tv"
         },
-        "wsyzy": {
-            "api": "https://api.wsyzy.net/api.php/provide/vod",
-            "name": "无水印资源",
-            "detail": "https://wsyzy.cc"
-        },
         "iqiyizy": {
             "api": "https://iqiyizyapi.com/api.php/provide/vod",
             "name": "iqiyi资源",
