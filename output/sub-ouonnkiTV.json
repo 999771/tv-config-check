@@ -21,6 +21,13 @@
         "isEnabled": true
     },
     {
+        "id": "wsyzy",
+        "name": "无水印资源",
+        "url": "https://api.wsyzy.net/api.php/provide/vod",
+        "detailUrl": "https://wsyzy.cc",
+        "isEnabled": true
+    },
+    {
         "id": "iqiyizy",
         "name": "iqiyi资源",
         "url": "https://iqiyizyapi.com/api.php/provide/vod",
