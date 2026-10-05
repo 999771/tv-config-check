@@ -26,6 +26,11 @@
             "name": "iqiyi资源",
             "detail": "https://iqiyizy.com"
         },
+        "myzy": {
+            "api": "https://api.maoyanapi.top/api.php/provide/vod",
+            "name": "猫眼资源",
+            "detail": "https://www.maoyanzy.com"
+        },
         "mtzy": {
             "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn",
             "name": "茅台资源",
@@ -130,6 +135,11 @@
             "api": "https://cj.yayazy.net/api.php/provide/vod",
             "name": "鸭鸭资源",
             "detail": "https://yayazy1.com"
+        },
+        "subzy": {
+            "api": "https://subocaiji.com/api.php/provide/vod",
+            "name": "速播资源",
+            "detail": "https://www.subozy.com"
         },
         "hyzy": {
             "api": "https://www.huyaapi.com/api.php/provide/vod",
