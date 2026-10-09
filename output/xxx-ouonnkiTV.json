@@ -14,13 +14,6 @@
         "isEnabled": true
     },
     {
-        "id": "askzy",
-        "name": "奥斯卡",
-        "url": "https://aosikazy.com/api.php/provide/vod",
-        "detailUrl": "https://aosikazy.com",
-        "isEnabled": true
-    },
-    {
         "id": "dadi",
         "name": "大地资源",
         "url": "https://dadiapi.com/api.php/provide/vod",
