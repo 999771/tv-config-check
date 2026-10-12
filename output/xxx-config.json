@@ -11,11 +11,6 @@
             "name": "桃花资源",
             "detail": "https://thzy1.me"
         },
-        "askzy": {
-            "api": "https://aosikazy.com/api.php/provide/vod",
-            "name": "奥斯卡",
-            "detail": "https://aosikazy.com"
-        },
         "dadi": {
             "api": "https://dadiapi.com/api.php/provide/vod",
             "name": "大地资源",
@@ -61,11 +56,6 @@
             "name": "JKUN资源",
             "detail": "https://jkunzy.com"
         },
-        "yutu": {
-            "api": "https://apiyutu.com/api.php/provide/vod",
-            "name": "玉兔资源",
-            "detail": "https://yutuzy.com"
-        },
         "ckzy": {
             "api": "https://ckzy.me/api.php/provide/vod",
             "name": "CK资源",
@@ -100,11 +90,6 @@
             "api": "http://fhapi9.com/api.php/provide/vod",
             "name": "番号资源",
             "detail": "http://fhzy10.com"
-        },
-        "lspzy": {
-            "api": "https://apilsbzy1.com/api.php/provide/vod",
-            "name": "lsp资源",
-            "detail": "https://laosebizy.com"
         },
         "xjizy": {
             "api": "https://api.xiaojizy.live/provide/vod",

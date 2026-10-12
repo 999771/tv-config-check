@@ -14,13 +14,6 @@
         "isEnabled": true
     },
     {
-        "id": "askzy",
-        "name": "奥斯卡",
-        "url": "https://aosikazy.com/api.php/provide/vod",
-        "detailUrl": "https://aosikazy.com",
-        "isEnabled": true
-    },
-    {
         "id": "dadi",
         "name": "大地资源",
         "url": "https://dadiapi.com/api.php/provide/vod",
@@ -84,13 +77,6 @@
         "isEnabled": true
     },
     {
-        "id": "yutu",
-        "name": "玉兔资源",
-        "url": "https://apiyutu.com/api.php/provide/vod",
-        "detailUrl": "https://yutuzy.com",
-        "isEnabled": true
-    },
-    {
         "id": "ckzy",
         "name": "CK资源",
         "url": "https://ckzy.me/api.php/provide/vod",
@@ -137,13 +123,6 @@
         "name": "番号资源",
         "url": "http://fhapi9.com/api.php/provide/vod",
         "detailUrl": "http://fhzy10.com",
-        "isEnabled": true
-    },
-    {
-        "id": "lspzy",
-        "name": "lsp资源",
-        "url": "https://apilsbzy1.com/api.php/provide/vod",
-        "detailUrl": "https://laosebizy.com",
         "isEnabled": true
     },
     {
